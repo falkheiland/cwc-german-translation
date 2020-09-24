@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.0.5</Version>
+  <Name>German (Germany) Translation</Name>
+  <Author>Falk Heiland</Author>
+  <ShortDescription>A translation of ScreenConnect into German (Germany) [de-DE].</ShortDescription>
+  <IsTemplate>false</IsTemplate>
+  <RequiredLicenseCapabilities>None</RequiredLicenseCapabilities>
+  <Components>
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.0" MaxProductVersionExclusive="19.1" SourceFile="Client.de-DE.19_0.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.1" MaxProductVersionExclusive="19.2" SourceFile="Client.de-DE.19_1.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.2" MaxProductVersionExclusive="19.3" SourceFile="Client.de-DE.19_2.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.3" MaxProductVersionExclusive="19.4" SourceFile="Client.de-DE.19_3.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.4" MaxProductVersionExclusive="19.5" SourceFile="Client.de-DE.19_4.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.5" MaxProductVersionExclusive="19.6" SourceFile="Client.de-DE.19_5.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="19.6" MaxProductVersionExclusive="19.7" SourceFile="Client.de-DE.19_6.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.1" MaxProductVersionExclusive="20.2" SourceFile="Client.de-DE.20_1.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.2" MaxProductVersionExclusive="20.3" SourceFile="Client.de-DE.20_2.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.3" MaxProductVersionExclusive="20.4" SourceFile="Client.de-DE.20_3.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.4" MaxProductVersionExclusive="20.5" SourceFile="Client.de-DE.20_4.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.5" MaxProductVersionExclusive="20.6" SourceFile="Client.de-DE.20_5.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.6" MaxProductVersionExclusive="20.7" SourceFile="Client.de-DE.20_6.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="20.7" SourceFile="Client.de-DE.20_7.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.0" MaxProductVersionExclusive="5.1" SourceFile="Client.de-DE.5_0.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.1" MaxProductVersionExclusive="5.2" SourceFile="Client.de-DE.5_1.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.2" MaxProductVersionExclusive="5.3" SourceFile="Client.de-DE.5_2.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.3" MaxProductVersionExclusive="5.4" SourceFile="Client.de-DE.5_3.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.4" MaxProductVersionExclusive="5.5" SourceFile="Client.de-DE.5_4.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.5" MaxProductVersionExclusive="5.6" SourceFile="Client.de-DE.5_5.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="5.6" MaxProductVersionExclusive="5.7" SourceFile="Client.de-DE.5_6.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.0" MaxProductVersionExclusive="6.1" SourceFile="Client.de-DE.6_0.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.1" MaxProductVersionExclusive="6.2" SourceFile="Client.de-DE.6_1.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.2" MaxProductVersionExclusive="6.3" SourceFile="Client.de-DE.6_2.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.3" MaxProductVersionExclusive="6.4" SourceFile="Client.de-DE.6_3.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.4" MaxProductVersionExclusive="6.5" SourceFile="Client.de-DE.6_4.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.5" MaxProductVersionExclusive="6.6" SourceFile="Client.de-DE.6_5.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.6" MaxProductVersionExclusive="6.7" SourceFile="Client.de-DE.6_6.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.7" MaxProductVersionExclusive="6.8" SourceFile="Client.de-DE.6_7.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.8" MaxProductVersionExclusive="6.9" SourceFile="Client.de-DE.6_8.resx" />
+    <ClientConfigFileDefinition MinProductVersionInclusive="6.9" MaxProductVersionExclusive="6.10" SourceFile="Client.de-DE.6_9.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.0" MaxProductVersionExclusive="19.1" SourceFile="Web.de-DE.19_0.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.1" MaxProductVersionExclusive="19.2" SourceFile="Web.de-DE.19_1.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.2" MaxProductVersionExclusive="19.3" SourceFile="Web.de-DE.19_2.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.3" MaxProductVersionExclusive="19.4" SourceFile="Web.de-DE.19_3.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.4" MaxProductVersionExclusive="19.5" SourceFile="Web.de-DE.19_4.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.5" MaxProductVersionExclusive="19.6" SourceFile="Web.de-DE.19_5.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="19.6" MaxProductVersionExclusive="19.7" SourceFile="Web.de-DE.19_6.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.1" MaxProductVersionExclusive="20.2" SourceFile="Web.de-DE.20_1.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.2" MaxProductVersionExclusive="20.3" SourceFile="Web.de-DE.20_2.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.3" MaxProductVersionExclusive="20.4" SourceFile="Web.de-DE.20_3.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.4" MaxProductVersionExclusive="20.5" SourceFile="Web.de-DE.20_4.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.5" MaxProductVersionExclusive="20.6" SourceFile="Web.de-DE.20_5.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.6" MaxProductVersionExclusive="20.7" SourceFile="Web.de-DE.20_6.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="20.7" SourceFile="Web.de-DE.20_7.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.0" MaxProductVersionExclusive="5.1" SourceFile="Web.de-DE.5_0.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.1" MaxProductVersionExclusive="5.2" SourceFile="Web.de-DE.5_1.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.2" MaxProductVersionExclusive="5.3" SourceFile="Web.de-DE.5_2.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.3" MaxProductVersionExclusive="5.4" SourceFile="Web.de-DE.5_3.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.4" MaxProductVersionExclusive="5.5" SourceFile="Web.de-DE.5_4.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.5" MaxProductVersionExclusive="5.6" SourceFile="Web.de-DE.5_5.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="5.6" MaxProductVersionExclusive="5.7" SourceFile="Web.de-DE.5_6.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.0" MaxProductVersionExclusive="6.1" SourceFile="Web.de-DE.6_0.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.1" MaxProductVersionExclusive="6.2" SourceFile="Web.de-DE.6_1.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.2" MaxProductVersionExclusive="6.3" SourceFile="Web.de-DE.6_2.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.3" MaxProductVersionExclusive="6.4" SourceFile="Web.de-DE.6_3.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.4" MaxProductVersionExclusive="6.5" SourceFile="Web.de-DE.6_4.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.5" MaxProductVersionExclusive="6.6" SourceFile="Web.de-DE.6_5.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.6" MaxProductVersionExclusive="6.7" SourceFile="Web.de-DE.6_6.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.7" MaxProductVersionExclusive="6.8" SourceFile="Web.de-DE.6_7.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.8" MaxProductVersionExclusive="6.9" SourceFile="Web.de-DE.6_8.resx" />
+    <WebResourcesDefinition MinProductVersionInclusive="6.9" MaxProductVersionExclusive="6.10" SourceFile="Web.de-DE.6_9.resx" />
+  </Components>
+</ExtensionManifest>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

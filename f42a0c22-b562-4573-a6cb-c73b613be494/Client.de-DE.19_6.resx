@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthenticatedOperationFailureTextReasonTerminationWithException" xml:space="preserve">
+    <value>Operation konnte nicht ausgeführt werden: {0}</value>
+  </data>
+  <data name="AuthenticatedOperationFailureTextReasonTerminationWithNonZeroExitCode" xml:space="preserve">
+    <value>Operation konnte nicht ausgeführt werden: Beendigungscode - {0}</value>
+  </data>
+  <data name="AuthenticatedOperationFailureTextReasonTimeout" xml:space="preserve">
+    <value>Vorgang konnte nicht ausgeführt werden: Zeitüberschreitung nach {0} Sekunden</value>
+  </data>
+  <data name="AuthenticatedOperationSuccessText" xml:space="preserve">
+    <value>Die Operation war erfolgreich</value>
+  </data>
+  <data name="ChangeFolderDialogDescription" xml:space="preserve">
+    <value>Bitte wählen Sie den neuen Ordner:</value>
+  </data>
+  <data name="CloseCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CloseEndButtonText" xml:space="preserve">
+    <value>Sitzung beenden</value>
+  </data>
+  <data name="CloseLeaveOpenButtonText" xml:space="preserve">
+    <value>Sitzung geöffnet lassen</value>
+  </data>
+  <data name="ClosePrompt" xml:space="preserve">
+    <value>Was möchten Sie gerne mit dieser Sitzung tun? Wenn die Sitzung beendet wird, wird jeder von der Sitzung getrennt. Wenn die Sitzung geöffnet bleibt, bleibt Ihr Gast verbunden.</value>
+  </data>
+  <data name="CloseTitleFormat" xml:space="preserve">
+    <value>{0} - Anwendung beenden</value>
+  </data>
+  <data name="CommandAcquireWakeLockFalse" xml:space="preserve">
+    <value>Freigeben</value>
+  </data>
+  <data name="CommandAcquireWakeLockTrue" xml:space="preserve">
+    <value>Annehmen</value>
+  </data>
+  <data name="CommandActivateRemotePrintingFalse" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="CommandActivateRemotePrintingTrue" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="CommandBlankGuestMonitorFalse" xml:space="preserve">
+    <value>Einblenden</value>
+  </data>
+  <data name="CommandBlankGuestMonitorTrue" xml:space="preserve">
+    <value>Ausblenden</value>
+  </data>
+  <data name="CommandBlockGuestInputFalse" xml:space="preserve">
+    <value>Freigeben</value>
+  </data>
+  <data name="CommandBlockGuestInputTrue" xml:space="preserve">
+    <value>Blockieren</value>
+  </data>
+  <data name="CommandChangeFolder" xml:space="preserve">
+    <value>Ordner ändern</value>
+  </data>
+  <data name="CommandClearAnnotations" xml:space="preserve">
+    <value>Leeren</value>
+  </data>
+  <data name="CommandDisconnectParticipant" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="CommandDismiss" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="CommandEnableClipboardHelpFalse" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="CommandEnableClipboardHelpTrue" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="CommandEnableDarkTheme" xml:space="preserve">
+    <value>Dunkles Design aktivieren</value>
+  </data>
+  <data name="CommandEnableLightTheme" xml:space="preserve">
+    <value>Helles Design aktivieren</value>
+  </data>
+  <data name="CommandExit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="CommandHide" xml:space="preserve">
+    <value>Verstecken</value>
+  </data>
+  <data name="CommandManageCredentialsPromptForStorage" xml:space="preserve">
+    <value>zum Speichern auffordern</value>
+  </data>
+  <data name="CommandManageCredentialsSendToScreen" xml:space="preserve">
+    <value>zum Bildschirm senden</value>
+  </data>
+  <data name="CommandManageSharedToolbox" xml:space="preserve">
+    <value>Freigegebene Toolbox verwalten</value>
+  </data>
+  <data name="CommandMuteMicrophoneFalse" xml:space="preserve">
+    <value>Mikrofon einschalten</value>
+  </data>
+  <data name="CommandMuteMicrophoneTrue" xml:space="preserve">
+    <value>Mikrofon stumm schalten</value>
+  </data>
+  <data name="CommandMuteSpeakersFalse" xml:space="preserve">
+    <value>Lautsprecher einschalten</value>
+  </data>
+  <data name="CommandMuteSpeakersTrue" xml:space="preserve">
+    <value>Lautsprecher stumm schalten</value>
+  </data>
+  <data name="CommandNone" xml:space="preserve">
+    <value>(leer)</value>
+  </data>
+  <data name="CommandOpen" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="CommandOpenFolder" xml:space="preserve">
+    <value>Ordner öffnen</value>
+  </data>
+  <data name="CommandOpenMonitor" xml:space="preserve">
+    <value>Monitor(e) in neuem Fenster öffnen</value>
+  </data>
+  <data name="CommandPauseSharingMyDesktopFalse" xml:space="preserve">
+    <value>Fortfahren</value>
+  </data>
+  <data name="CommandRebootToNormalMode" xml:space="preserve">
+    <value>in normalen Modus</value>
+  </data>
+  <data name="CommandRebootToSafeMode" xml:space="preserve">
+    <value>in abgesicherten Modus</value>
+  </data>
+  <data name="CommandReceiveFiles" xml:space="preserve">
+    <value>Dateien empfangen...</value>
+  </data>
+  <data name="CommandReceiveFolder" xml:space="preserve">
+    <value>Ordner empfangen...</value>
+  </data>
+  <data name="CommandReceiveSoundFalse" xml:space="preserve">
+    <value>Empfang beenden</value>
+  </data>
+  <data name="CommandReceiveSoundTrue" xml:space="preserve">
+    <value>Empfang starten</value>
+  </data>
+  <data name="CommandRegenerateParticipantColor" xml:space="preserve">
+    <value>Farbe wiederherstellen</value>
+  </data>
+  <data name="CommandRequestParticipantShare" xml:space="preserve">
+    <value>Teilen des Dektops anfordern</value>
+  </data>
+  <data name="CommandReshareMyDesktop" xml:space="preserve">
+    <value>Weiterteilen</value>
+  </data>
+  <data name="CommandRunTool" xml:space="preserve">
+    <value>Tool ausführen</value>
+  </data>
+  <data name="CommandRunToolElevated" xml:space="preserve">
+    <value>Tool mit erhöhten Rechten ausführen</value>
+  </data>
+  <data name="CommandSelectAnnotationModeAllDraw" xml:space="preserve">
+    <value>Alle Zeichnen</value>
+  </data>
+  <data name="CommandSelectAnnotationModeHostDraw" xml:space="preserve">
+    <value>Host zeichnet</value>
+  </data>
+  <data name="CommandSelectAnnotationModeInvisible" xml:space="preserve">
+    <value>Unsichtbar</value>
+  </data>
+  <data name="CommandSelectAnnotationModeViewOnly" xml:space="preserve">
+    <value>Nur anschauen</value>
+  </data>
+  <data name="CommandSelectAnnotationStrokeThicknessMedium" xml:space="preserve">
+    <value>Mittel</value>
+  </data>
+  <data name="CommandSelectAnnotationStrokeThicknessThick" xml:space="preserve">
+    <value>Dick</value>
+  </data>
+  <data name="CommandSelectAnnotationStrokeThicknessThin" xml:space="preserve">
+    <value>Dünn</value>
+  </data>
+  <data name="CommandSelectAnnotationToolLine" xml:space="preserve">
+    <value>Linie</value>
+  </data>
+  <data name="CommandSelectAnnotationToolPen" xml:space="preserve">
+    <value>Stift</value>
+  </data>
+  <data name="CommandSelectAnnotationToolRectangle" xml:space="preserve">
+    <value>Rechteck</value>
+  </data>
+  <data name="CommandSelectHelperHighlightToolCross" xml:space="preserve">
+    <value>Kreuz</value>
+  </data>
+  <data name="CommandSelectHelperHighlightToolInstallMessage" xml:space="preserve">
+    <value>Die benötigte Funktion "Windows TIFF IFilter" ist momentan nichtin Ihrem Betriebssystem aktiviert. Was möchten Sie tun?</value>
+  </data>
+  <data name="CommandSelectHelperHighlightToolInstallNo" xml:space="preserve">
+    <value>Diese Funktion nicht aktivieren.</value>
+  </data>
+  <data name="CommandSelectHelperHighlightToolInstallTitle" xml:space="preserve">
+    <value>Windows Funktion benötigt.</value>
+  </data>
+  <data name="CommandSelectHelperHighlightToolInstallYes" xml:space="preserve">
+    <value>Funktion aktivieren</value>
+  </data>
+  <data name="CommandSelectHelperHighlightToolNone" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="CommandSelectMonitor" xml:space="preserve">
+    <value>Monitor(e) auswählen</value>
+  </data>
+  <data name="CommandSelectQualityHigh" xml:space="preserve">
+    <value>Hoch</value>
+  </data>
+  <data name="CommandSelectQualityLow" xml:space="preserve">
+    <value>Gering</value>
+  </data>
+  <data name="CommandSelectQualityMedium" xml:space="preserve">
+    <value>Mittel</value>
+  </data>
+  <data name="CommandSelectSoundCaptureModeAllMicrophones" xml:space="preserve">
+    <value>Alle Mikrofone</value>
+  </data>
+  <data name="CommandSelectSoundCaptureModeHostMicrophone" xml:space="preserve">
+    <value>Host Mikrofon</value>
+  </data>
+  <data name="CommandSelectSoundCaptureModeSilent" xml:space="preserve">
+    <value>Leise</value>
+  </data>
+  <data name="CommandSelectSoundCaptureModeSpeakers" xml:space="preserve">
+    <value>Lautsprecher</value>
+  </data>
+  <data name="CommandSendClipboardKeystrokes" xml:space="preserve">
+    <value>Zwischenablage Tastendrücke senden</value>
+  </data>
+  <data name="CommandSendElevate" xml:space="preserve">
+    <value>Jetzt erhöhen</value>
+  </data>
+  <data name="CommandSendFiles" xml:space="preserve">
+    <value>Dateien senden...</value>
+  </data>
+  <data name="CommandSendFolder" xml:space="preserve">
+    <value>Ordner senden...</value>
+  </data>
+  <data name="CommandSendMessage" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="CommandSendSystemKeyCode" xml:space="preserve">
+    <value>Strg+Alt+Entf senden</value>
+  </data>
+  <data name="CommandShareMyDesktop" xml:space="preserve">
+    <value>Meinen Desktop teilen</value>
+  </data>
+  <data name="CommandShareMyDesktopGuest" xml:space="preserve">
+    <value>Mit Teilen beginnen</value>
+  </data>
+  <data name="CommandShareMyDesktopHost" xml:space="preserve">
+    <value>Mit Teilen beginnen</value>
+  </data>
+  <data name="CommandShortcutBlankGuestMonitor" xml:space="preserve">
+    <value>Gast-Monitor schwarz schalten</value>
+  </data>
+  <data name="CommandShortcutTakeScreenshotToClipboard" xml:space="preserve">
+    <value>Screenshot zur Zwischenablage</value>
+  </data>
+  <data name="CommandShortcutToggleHostDrawAnnotationMode" xml:space="preserve">
+    <value>Host-Zeichenmodus</value>
+  </data>
+  <data name="CommandShortcutUnblankGuestMonitor" xml:space="preserve">
+    <value>Gast-Monitor schwarz wieder zuschalten</value>
+  </data>
+  <data name="CommandShortcutZoomIn" xml:space="preserve">
+    <value>Hineinzoomen</value>
+  </data>
+  <data name="CommandShortcutZoomOut" xml:space="preserve">
+    <value>Herauszoomen</value>
+  </data>
+  <data name="CommandShowFeedbackForm" xml:space="preserve">
+    <value>Feedback geben</value>
+  </data>
+  <data name="CommandSpecifyProxyServer" xml:space="preserve">
+    <value>Proxy Server angeben...</value>
+  </data>
+  <data name="CommandSplitMonitors" xml:space="preserve">
+    <value>Monitore aufteilen</value>
+  </data>
+  <data name="CommandStopParticipantShare" xml:space="preserve">
+    <value>Desktop Teilen beenden</value>
+  </data>
+  <data name="CommandSuspendMyInputFalse" xml:space="preserve">
+    <value>Fortfahren</value>
+  </data>
+  <data name="CommandSuspendMyInputTrue" xml:space="preserve">
+    <value>Aussetzen</value>
+  </data>
+  <data name="CommandTakeScreenshotToClipboard" xml:space="preserve">
+    <value>in Zwischenablage</value>
+  </data>
+  <data name="CommandTakeScreenshotToFile" xml:space="preserve">
+    <value>in Datei</value>
+  </data>
+  <data name="CommandToggleAcquireWakeLock" xml:space="preserve">
+    <value>Ruhemodus verhindern</value>
+  </data>
+  <data name="CommandToggleActivateRemotePrinting" xml:space="preserve">
+    <value>Aktivieren Sie Remote Printing</value>
+  </data>
+  <data name="CommandToggleAlwaysOnTop" xml:space="preserve">
+    <value>Immer oben</value>
+  </data>
+  <data name="CommandToggleBeepOnConnect" xml:space="preserve">
+    <value>Ton beim Verbinden</value>
+  </data>
+  <data name="CommandToggleBlankGuestMonitor" xml:space="preserve">
+    <value>Gast Monitor ausblenden</value>
+  </data>
+  <data name="CommandToggleBlockGuestInput" xml:space="preserve">
+    <value>Gast Eingabe blockieren</value>
+  </data>
+  <data name="CommandToggleFullScreenWhenMaximized" xml:space="preserve">
+    <value>Vollbild wenn maximiert</value>
+  </data>
+  <data name="CommandToggleReceiveSound" xml:space="preserve">
+    <value>Ton empfangen</value>
+  </data>
+  <data name="CommandToggleRequireConsent" xml:space="preserve">
+    <value>Meine Zustimmung wird benötigt</value>
+  </data>
+  <data name="CommandToggleSuspendMyInput" xml:space="preserve">
+    <value>Eigene Eingabe aussetzen</value>
+  </data>
+  <data name="CommandUnshareMyDesktop" xml:space="preserve">
+    <value>Teilen beenden</value>
+  </data>
+  <data name="CommandUnshareMyDesktopGuest" xml:space="preserve">
+    <value>Anfrage Teilen ablehnen</value>
+  </data>
+  <data name="CommandUnshareMyDesktopHost" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CommandVideoRecord" xml:space="preserve">
+    <value>Aufzeichnen</value>
+  </data>
+  <data name="ConsentHostConsentButtonText" xml:space="preserve">
+    <value>Der Fernsteuerung zustimmen</value>
+  </data>
+  <data name="ConsentHostLabelFormat" xml:space="preserve">
+    <value>'{0}' möchte die Fernsteuerung über Ihren Computer übernehmen. Ihre Zustimmung ist erforderlich um fortzufahren.</value>
+  </data>
+  <data name="ConsentHostRefuseButtonText" xml:space="preserve">
+    <value>Zustimmung verweigern.</value>
+  </data>
+  <data name="ConsentHostTimeoutLabelFormat" xml:space="preserve">
+    <value>'{0}' möchte die Fernsteuerung über Ihren Computer übernehmen. Ihre Zustimmung ist erforderlich um fortzufahren. (Automatisch akzeptieren in {1} Sekunden)</value>
+  </data>
+  <data name="ConsentHostTitleFormat" xml:space="preserve">
+    <value>{0} - Zustimmung zur Fernsteuerung</value>
+  </data>
+  <data name="ConsoleRequiredSystemKeyCodeMessage" xml:space="preserve">
+    <value>Die Console Sitzung muss System Key Code senden. Momentan befinden Sie sich in einer Terminalserver Sitzung.</value>
+  </data>
+  <data name="ConsoleRequiredSystemKeyCodeTitleFormat" xml:space="preserve">
+    <value>{0} - Console Sitzung erforderlich</value>
+  </data>
+  <data name="ControlPanelAcquireWakeLockDescription" xml:space="preserve">
+    <value>Verhindern der Aktivierung von Energiesparfunktionen, Auto-Sperrungen und Bildschirmschonern während Sie inaktiv sind.</value>
+  </data>
+  <data name="ControlPanelAcquireWakeLockTitle" xml:space="preserve">
+    <value>Aktivieren der Aufweck-Sperre</value>
+  </data>
+  <data name="ControlPanelActivateRemotePrintingDescription" xml:space="preserve">
+    <value>Drucken Sie Dokumente vom Gastcomputer aus. Es kann einige Minuten dauern, bis alle Drucker verfügbar sind.</value>
+  </data>
+  <data name="ControlPanelActivateRemotePrintingTitle" xml:space="preserve">
+    <value>Aktivieren Sie Remote Printing</value>
+  </data>
+  <data name="ControlPanelAnnotationTitle" xml:space="preserve">
+    <value>Anmerkung</value>
+  </data>
+  <data name="ControlPanelBlankGuestMonitorDescription" xml:space="preserve">
+    <value>Den entfernten Monitor ausblenden, so dass nicht gesehen werden kann, was Sie tun.</value>
+  </data>
+  <data name="ControlPanelBlankGuestMonitorTitle" xml:space="preserve">
+    <value>Gast Monitor ausblenden</value>
+  </data>
+  <data name="ControlPanelBlockGuestInputDescription" xml:space="preserve">
+    <value>Den Benutzer an der entfernten Maschine davon abhalten, in Ihre Arbeit zu einzugreifen</value>
+  </data>
+  <data name="ControlPanelBlockGuestInputTitle" xml:space="preserve">
+    <value>Gäste Eingabe blockieren</value>
+  </data>
+  <data name="ControlPanelChangeSharingTitle" xml:space="preserve">
+    <value>Teilen ändern</value>
+  </data>
+  <data name="ControlPanelClearAnnotationsDescription" xml:space="preserve">
+    <value>Jede Anmerkung auf dem Bildschirm entfernen</value>
+  </data>
+  <data name="ControlPanelClearAnnotationsTitle" xml:space="preserve">
+    <value>Anmerkung entfernen</value>
+  </data>
+  <data name="ControlPanelClipboardKeystrokesDescription" xml:space="preserve">
+    <value>Senden Sie Ihre Zwischenablage zur entfernten Maschine als Tastatureingabe.</value>
+  </data>
+  <data name="ControlPanelClipboardKeystrokesTitle" xml:space="preserve">
+    <value>Zwischenablage als Tastatureingabe senden</value>
+  </data>
+  <data name="ControlPanelControlSharingTitle" xml:space="preserve">
+    <value>Teilen steuern</value>
+  </data>
+  <data name="ControlPanelEnableClipboardHelpDescription" xml:space="preserve">
+    <value>Aktivieren Sie die Zwischenablage, damit der Helper alle kopierten Texte verarbeiten kann.</value>
+  </data>
+  <data name="ControlPanelEnableClipboardHelpTitle" xml:space="preserve">
+    <value>Zwischenablage Hilfe aktivieren</value>
+  </data>
+  <data name="ControlPanelEssentialsTitle" xml:space="preserve">
+    <value>Wesentliches</value>
+  </data>
+  <data name="ControlPanelFileTransferTitle" xml:space="preserve">
+    <value>Datei Transfer</value>
+  </data>
+  <data name="ControlPanelHelperTitle" xml:space="preserve">
+    <value>Helfer</value>
+  </data>
+  <data name="ControlPanelManageCaptureFolderTitle" xml:space="preserve">
+    <value>Aufnahme Ordner verwalten</value>
+  </data>
+  <data name="ControlPanelManageCredentialsDescription" xml:space="preserve">
+    <value>Anmeldedaten speichern um sich später am Anmeldebildschirm anzumelden</value>
+  </data>
+  <data name="ControlPanelManageCredentialsTitle" xml:space="preserve">
+    <value>Anmeldedaten verwalten</value>
+  </data>
+  <data name="ControlPanelManagePersonalToolboxTitle" xml:space="preserve">
+    <value>Persönliche Toolbox verwalten</value>
+  </data>
+  <data name="ControlPanelManageReceiveFolderTitle" xml:space="preserve">
+    <value>Empfangsordner vewalten</value>
+  </data>
+  <data name="ControlPanelManageSharedToolboxDescription" xml:space="preserve">
+    <value>Die Toolbox auf dem zentralen Server verwalten</value>
+  </data>
+  <data name="ControlPanelManageSharedToolboxTitle" xml:space="preserve">
+    <value>Die geteilte Toolbox verwalten</value>
+  </data>
+  <data name="ControlPanelMessagesTitle" xml:space="preserve">
+    <value>Nachrichten</value>
+  </data>
+  <data name="ControlPanelMicrophoneDescription" xml:space="preserve">
+    <value>Wählen Sie ein Mikrofon und zeigen Sie dessen Pegel an.</value>
+  </data>
+  <data name="ControlPanelMicrophoneTitle" xml:space="preserve">
+    <value>Mikrofon</value>
+  </data>
+  <data name="ControlPanelMuteMicrophoneTitle" xml:space="preserve">
+    <value>Mikrofon stumm schalten</value>
+  </data>
+  <data name="ControlPanelMuteSpeakersTitle" xml:space="preserve">
+    <value>Lautsprechen ausschalten</value>
+  </data>
+  <data name="ControlPanelParticipantsTitle" xml:space="preserve">
+    <value>Teilnehmer</value>
+  </data>
+  <data name="ControlPanelRebootDescription" xml:space="preserve">
+    <value>Entfernte Maschine neustarten und im Anschluss wieder verbinden</value>
+  </data>
+  <data name="ControlPanelRebootTitle" xml:space="preserve">
+    <value>Neustarten und verbinden</value>
+  </data>
+  <data name="ControlPanelReceiveFilesDescription" xml:space="preserve">
+    <value>Dateien zur eigenen Maschine senden. Ausschneiden/Einfügen oder Drag/Drop ist einfacher.</value>
+  </data>
+  <data name="ControlPanelReceiveFilesTitle" xml:space="preserve">
+    <value>Dateien empfangen</value>
+  </data>
+  <data name="ControlPanelReceiveSoundDescription" xml:space="preserve">
+    <value>Ton der entfernten Maschine empfangen.</value>
+  </data>
+  <data name="ControlPanelReceiveSoundTitle" xml:space="preserve">
+    <value>Ton empfangen</value>
+  </data>
+  <data name="ControlPanelRecordVideoDescription" xml:space="preserve">
+    <value>Ein Video als AVI auf der eigenen Maschine erstellen.</value>
+  </data>
+  <data name="ControlPanelRecordVideoTitle" xml:space="preserve">
+    <value>Video aufzeichnen</value>
+  </data>
+  <data name="ControlPanelScreenCaptureTitle" xml:space="preserve">
+    <value>Bildschirmdruck</value>
+  </data>
+  <data name="ControlPanelSelectAnnotationModeDescription" xml:space="preserve">
+    <value>Anmerkungsmodus für die Sitzung wählen.</value>
+  </data>
+  <data name="ControlPanelSelectAnnotationModeTitle" xml:space="preserve">
+    <value>Modus auswählen</value>
+  </data>
+  <data name="ControlPanelSelectAnnotationStrokeThicknessDescription" xml:space="preserve">
+    <value>Eine andere Zeichenstärke wählen</value>
+  </data>
+  <data name="ControlPanelSelectAnnotationStrokeThicknessTitle" xml:space="preserve">
+    <value>Zeichenstärke wählen</value>
+  </data>
+  <data name="ControlPanelSelectAnnotationToolDescription" xml:space="preserve">
+    <value>Anmerkungstool auswählen</value>
+  </data>
+  <data name="ControlPanelSelectAnnotationToolTitle" xml:space="preserve">
+    <value>Tool auswälen</value>
+  </data>
+  <data name="ControlPanelSelectHelperHighlightToolDescription" xml:space="preserve">
+    <value>Wählen Sie ein Werkzeug um einen Ausschnitt des Bildschirms für die Texterkennung (OCR) auszuwählen.</value>
+  </data>
+  <data name="ControlPanelSelectHelperHighlightToolTitle" xml:space="preserve">
+    <value>Werkzeug auswählen</value>
+  </data>
+  <data name="ControlPanelSelectHelpProviderDescription" xml:space="preserve">
+    <value>Wählen Sie einen Hilfeanbieter um Scuhergebnisse oder andere Informationen zu erhalten.</value>
+  </data>
+  <data name="ControlPanelSelectHelpProviderTitle" xml:space="preserve">
+    <value>Anbieter auswählen</value>
+  </data>
+  <data name="ControlPanelSelectLogonSessionDescription" xml:space="preserve">
+    <value>Logon Sitzung auf der entfernten Maschine wählen</value>
+  </data>
+  <data name="ControlPanelSelectLogonSessionTitle" xml:space="preserve">
+    <value>Logon Sitzung wählen</value>
+  </data>
+  <data name="ControlPanelSelectMicrophoneTitle" xml:space="preserve">
+    <value>Mikrofon auswählen</value>
+  </data>
+  <data name="ControlPanelSelectMonitorsDescription" xml:space="preserve">
+    <value>Ein oder mehrere entfernte Monitore zum betrachten auswählen</value>
+  </data>
+  <data name="ControlPanelSelectMonitorsTitle" xml:space="preserve">
+    <value>Monitore auswählen</value>
+  </data>
+  <data name="ControlPanelSelectQualityDescription" xml:space="preserve">
+    <value>Bei langsamer Netzwerkverbindung eine geringere Qualität auswählen</value>
+  </data>
+  <data name="ControlPanelSelectQualityTitle" xml:space="preserve">
+    <value>Qualität auswählen</value>
+  </data>
+  <data name="ControlPanelSelectSoundCaptureModeDescription" xml:space="preserve">
+    <value>Tonaufzeichnungsmodus auswählen</value>
+  </data>
+  <data name="ControlPanelSelectSoundCaptureModeTitle" xml:space="preserve">
+    <value>Modus auswählen</value>
+  </data>
+  <data name="ControlPanelSelectSpeakersTitle" xml:space="preserve">
+    <value>Lautsprecher auswählen</value>
+  </data>
+  <data name="ControlPanelSendFilesDescription" xml:space="preserve">
+    <value>Dateien zur entfernten Maschine senden. Ausschneiden/Einfügen oder Drag/Drop ist einfacher.</value>
+  </data>
+  <data name="ControlPanelSendFilesTitle" xml:space="preserve">
+    <value>Dateien senden</value>
+  </data>
+  <data name="ControlPanelSetSpeakersVolumeTitle" xml:space="preserve">
+    <value>Lautstärke einstellen</value>
+  </data>
+  <data name="ControlPanelShareClipboardDescription" xml:space="preserve">
+    <value>Teilen Sie die Zwischenablagen von Maschinen in dieser Sitzung.</value>
+  </data>
+  <data name="ControlPanelShareClipboardTitle" xml:space="preserve">
+    <value>Zwischenablage freigeben</value>
+  </data>
+  <data name="ControlPanelShareMyDesktopDescription" xml:space="preserve">
+    <value>Teilen umkehren und den eigenen Desktop komplett oder teilweise teilen</value>
+  </data>
+  <data name="ControlPanelShareMyDesktopTitle" xml:space="preserve">
+    <value>Desktop teilen</value>
+  </data>
+  <data name="ControlPanelShareTitle" xml:space="preserve">
+    <value>Teilen</value>
+  </data>
+  <data name="ControlPanelSoundTitle" xml:space="preserve">
+    <value>Ton</value>
+  </data>
+  <data name="ControlPanelSpeakersDescription" xml:space="preserve">
+    <value>Wählen Sie einen Lautsprecher und stellen Sie die Lautstärke ein.</value>
+  </data>
+  <data name="ControlPanelSpeakersTitle" xml:space="preserve">
+    <value>Lautsprecher</value>
+  </data>
+  <data name="ControlPanelSuspendMyInputDescription" xml:space="preserve">
+    <value>Eigene Maus und Tastatur davon abhalten auf der entfernten Maschine aktiv zu werden</value>
+  </data>
+  <data name="ControlPanelSuspendMyInputTitle" xml:space="preserve">
+    <value>Eigene Eingabe aussetzen</value>
+  </data>
+  <data name="ControlPanelSystemKeyCodeDescription" xml:space="preserve">
+    <value>Strg+Alt+Entf zur entfernten Maschine senden. Strg+Alt+Home ist eine Tastenkombination.</value>
+  </data>
+  <data name="ControlPanelSystemKeyCodeTitle" xml:space="preserve">
+    <value>Strg+Alt+Entf senden.</value>
+  </data>
+  <data name="ControlPanelTakeScreenshotDescription" xml:space="preserve">
+    <value>Screenshot vom Desktop der entfernten Maschine machen</value>
+  </data>
+  <data name="ControlPanelTakeScreenshotTitle" xml:space="preserve">
+    <value>Screenshot machen</value>
+  </data>
+  <data name="ControlPanelToolboxTitle" xml:space="preserve">
+    <value>Werkzeugkasten</value>
+  </data>
+  <data name="ControlPanelViewMicrophoneLevelTitle" xml:space="preserve">
+    <value>Mikrofonlautstärke</value>
+  </data>
+  <data name="ControlPanelViewTitle" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="ControlPanelWindowTitle" xml:space="preserve">
+    <value>Fenster</value>
+  </data>
+  <data name="ControlPanelZoomDescription" xml:space="preserve">
+    <value>Vergrößern oder verkleinern auf eine von mehreren Vorgabestufen.</value>
+  </data>
+  <data name="CredentialsCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CredentialsFailureText" xml:space="preserve">
+    <value>Ungültiger Benutzername und/oder ungültiges Passwort.</value>
+  </data>
+  <data name="CredentialsPasswordLabelText" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="CredentialsRunServiceAdminCredentialsExceptionText" xml:space="preserve">
+    <value>Der angeforderte Benutzer ist kein Administrator</value>
+  </data>
+  <data name="CredentialsRunServiceAuthenticatingMessage" xml:space="preserve">
+    <value>Authentifizieren...</value>
+  </data>
+  <data name="CredentialsRunServiceInstructionText" xml:space="preserve">
+    <value>Dienst Modus für diese Operation erforderlich. Bitte administrative Anmeldedaten eingeben um in Dienst Modus zu gelangen</value>
+  </data>
+  <data name="CredentialsRunServiceTitleFormat" xml:space="preserve">
+    <value>{0} - Dienst ausführen</value>
+  </data>
+  <data name="CredentialsRunServiceWarningText" xml:space="preserve">
+    <value>WARNUNG: Wenn Windows UAC aktiviert ist, wird temporär die Kontrolle verloren während der Gast eine JA/NEIN Abfrage zur Erhöhung der Rechte erhält.</value>
+  </data>
+  <data name="CredentialsStoreInstructionText" xml:space="preserve">
+    <value>Die Anmeldedaten zum Verschlüsseln und Speichern eingeben. Ihr Host kann diese Anmeldedaten jederzeit an Ihren Bildschirm schicken. Der Benutzername wird in normale Textfelder geschickt. Das Passwort wird in spezielle Passwortfelder geschickt, so dass Passwort geheim bleibt.</value>
+  </data>
+  <data name="CredentialsStoreStoringMessage" xml:space="preserve">
+    <value>Speichern...</value>
+  </data>
+  <data name="CredentialsStoreTitleFormat" xml:space="preserve">
+    <value>{0} - Anmeldedaten speichern</value>
+  </data>
+  <data name="CredentialsSuccessText" xml:space="preserve">
+    <value>Erfolg</value>
+  </data>
+  <data name="CredentialsUserNameLabelText" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="EndPointStatusConnectedTitle" xml:space="preserve">
+    <value>Verbunden</value>
+  </data>
+  <data name="EndPointStatusConnectingTitle" xml:space="preserve">
+    <value>Verbinden...</value>
+  </data>
+  <data name="EndPointStatusNegotiatingTitle" xml:space="preserve">
+    <value>Aushandeln...</value>
+  </data>
+  <data name="EndPointStatusRefusedConsentDescription" xml:space="preserve">
+    <value>Der Remote-Benutzer hat die Zustimmung verweigert. Sie können mit dem Remote-Benutzer chatten, um Gründe zu ermitteln. Sie können diese Sitzung erneut starten, um den Benutzer erneut zu informieren</value>
+  </data>
+  <data name="EndPointStatusRefusedConsentTitle" xml:space="preserve">
+    <value>Zustimmung abgelehnt</value>
+  </data>
+  <data name="EndPointStatusSleepingForFreeLicenseDescription" xml:space="preserve">
+    <value>Ihre Installation hat das zulässige Limit für gleichzeitige Sitzungen erreicht, oder Sie haben eine Lizenzbeschränkung erreicht. Es wird weiterhin versucht, die Verbindung wiederherzustellen, bis eine Lizenz verfügbar ist.</value>
+  </data>
+  <data name="EndPointStatusSleepingForFreeLicenseTitle" xml:space="preserve">
+    <value>Warten auf eine verfügbare Lizenz ... </value>
+  </data>
+  <data name="EndPointStatusSleepingForFreeSlotDescription" xml:space="preserve">
+    <value>Jemand ist bereits zu dieser Sitzung mit Ihrer Sitzungsrolle verbunden. Es wird ein paar Sekunden bis zum nächsten Verbindungsversuch gewartet.</value>
+  </data>
+  <data name="EndPointStatusSleepingForFreeSlotTitle" xml:space="preserve">
+    <value>Warten auf einen verfügbaren Platz...</value>
+  </data>
+  <data name="EndPointStatusSleepingForRetryDescription" xml:space="preserve">
+    <value>Beim Verbinden zu Ihrer Sitzung trat ein Fehler auf. Es wird ein paar Sekunden bis zum nächsten Verbindungsversuch gewartet. Error: {0}</value>
+  </data>
+  <data name="EndPointStatusSleepingForRetryTitle" xml:space="preserve">
+    <value>Auf neuen Verbindungsversuch warten...</value>
+  </data>
+  <data name="EndPointStatusStoppedTitle" xml:space="preserve">
+    <value>Angehalten</value>
+  </data>
+  <data name="EndPointStatusWaitingForCaptureDescription" xml:space="preserve">
+    <value>Sie haben sich erfolgreich mit der Sitzung verbunden, jedoch hat das Teilen noch nicht begonnen.</value>
+  </data>
+  <data name="EndPointStatusWaitingForCaptureTitle" xml:space="preserve">
+    <value>Warten auf Ihr Bildschirmteilen...</value>
+  </data>
+  <data name="EndPointStatusWaitingForConsentDescription" xml:space="preserve">
+    <value>Diese Sitzung erfordert eine Zustimmung bevor Sie den Fernzugriff übernehmen können. Der entfernte Benutzer wird aufgefordert zuzustimmen. Sie können mit dem Benutzer chatten um ihn anzuleiten.</value>
+  </data>
+  <data name="EndPointStatusWaitingForConsentTitle" xml:space="preserve">
+    <value>Warten auf Zustimmung...</value>
+  </data>
+  <data name="EndPointStatusWaitingForGuestDescription" xml:space="preserve">
+    <value>Sie haben sich erfolgreich mit der Sitzung verbunden, aber Ihr Gast hat sich noch nicht verbunden. Ihre Sitzung wird starten, wenn dieser sich verbindet.</value>
+  </data>
+  <data name="EndPointStatusWaitingForGuestTitle" xml:space="preserve">
+    <value>Warte auf den Gast...</value>
+  </data>
+  <data name="EndPointStatusWaitingForHostDescription" xml:space="preserve">
+    <value>Sie haben sich erfolgreich mit der Sitzung verbunden, aber Ihr Host hat sich noch nicht verbunden. Ihre Sitzung wird starten, wenn dieser sich verbindet.</value>
+  </data>
+  <data name="EndPointStatusWaitingForHostTitle" xml:space="preserve">
+    <value>Getrennt. Bereit für Verbindung.</value>
+  </data>
+  <data name="FeedbackCommentsInstructions" xml:space="preserve">
+    <value>Sie können Ihre E-Mail in das Feld oben einfügen, wenn Sie möchten, dass wir uns bei Ihnen melden.</value>
+  </data>
+  <data name="FeedbackCommentsLabelText" xml:space="preserve">
+    <value>Zusätzliche Kommentare (optional):</value>
+  </data>
+  <data name="FeedbackDismissLinkText" xml:space="preserve">
+    <value>Nicht jetzt</value>
+  </data>
+  <data name="FeedbackEmailPlaceholderText" xml:space="preserve">
+    <value>Kontakt E-Mail</value>
+  </data>
+  <data name="FeedbackHideLinkText" xml:space="preserve">
+    <value>Für immer ausblenden</value>
+  </data>
+  <data name="FeedbackHighButtonText" xml:space="preserve">
+    <value>Ausgezeichnet</value>
+  </data>
+  <data name="FeedbackLowButtonText" xml:space="preserve">
+    <value>Schlecht</value>
+  </data>
+  <data name="FeedbackMediumButtonText" xml:space="preserve">
+    <value>Gut</value>
+  </data>
+  <data name="FeedbackRatingInstructions" xml:space="preserve">
+    <value>Wie effektiv war unser Produkt während Ihrer Sitzung insgesamt?</value>
+  </data>
+  <data name="FeedbackSubmitButtonText" xml:space="preserve">
+    <value>Absenden</value>
+  </data>
+  <data name="FeedbackTitleText" xml:space="preserve">
+    <value>Feedback-Umfrage</value>
+  </data>
+  <data name="GuestAnonymousName" xml:space="preserve">
+    <value>Gast</value>
+  </data>
+  <data name="HiddenAppBalloonTextTitleFormat" xml:space="preserve">
+    <value>{0} läuft im Hintergrund</value>
+  </data>
+  <data name="HiddenAppBalloonTitle" xml:space="preserve">
+    <value>Läuft noch ...</value>
+  </data>
+  <data name="InfoPanelShareGuestTitle" xml:space="preserve">
+    <value>Anfrage Desktop Teilen</value>
+  </data>
+  <data name="InfoPanelShareHostTitle" xml:space="preserve">
+    <value>Teile meinen Desktop</value>
+  </data>
+  <data name="MacPermissionsDialogConfigurePermissionsButtonText" xml:space="preserve">
+    <value>Berechtigungen konfigurieren</value>
+  </data>
+  <data name="MacPermissionsDialogDismissButtonText" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="MacReinstallUninstallPromptFormat" xml:space="preserve">
+    <value>Bitte geben Sie Ihr Passwort ein um dem {0} Client eine Neu- oder Deinstallation zu erlauben.</value>
+  </data>
+  <data name="MessagesTypeHereText" xml:space="preserve">
+    <value>Geben Sie hier Ihre Nachricht ein</value>
+  </data>
+  <data name="MessagesTypingFormat" xml:space="preserve">
+    <value>{0} schreibt...</value>
+  </data>
+  <data name="NotificationBannerCapturingErrorMessage" xml:space="preserve">
+    <value>Bildschirmübertragung unterbrochen, wahrscheinlich aufgrund einer UAC-Eingabeaufforderung in einer nicht erhöhten Sitzung</value>
+  </data>
+  <data name="NotificationBannerLogonCredentialsMessage" xml:space="preserve">
+    <value>Sie haben die für dieses Gerät verfügbaren Anmeldeinformationen gespeichert</value>
+  </data>
+  <data name="NotificationSendCrtlAltDeleteMessage" xml:space="preserve">
+    <value>Strg-Alt-Entf kann an dieses Gerät gesendet werden</value>
+  </data>
+  <data name="OperationNotSupportedMessageFormat" xml:space="preserve">
+    <value>Operation '{0}' nicht unterstützt.</value>
+  </data>
+  <data name="OptionsButtonText" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="ProxyServerSpecifyInstructionText" xml:space="preserve">
+    <value>Geben Sie Ihre Proxyserver und optional Ihre Anmeldedaten ein. Diese Werte werden beim Verbinden zu Ihrer Sitzung bevorzugt. Jedoch werden andere Methoden wie direkte Verbindung und Systemvergebene Proxys in Verbindungsversuchen genutzt.</value>
+  </data>
+  <data name="ProxyServerSpecifyStoringMessage" xml:space="preserve">
+    <value>Speichern...</value>
+  </data>
+  <data name="ProxyServerSpecifyTitleFormat" xml:space="preserve">
+    <value>{0} - Proxy Server angeben</value>
+  </data>
+  <data name="RebootCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="RebootMessage" xml:space="preserve">
+    <value>Sendet ein Neustart Kommando zur entfernten Maschine. Die Anwendung sollte sich nach dem Neustart wiederverbinden.</value>
+  </data>
+  <data name="RebootRebootButtonText" xml:space="preserve">
+    <value>Neustarten</value>
+  </data>
+  <data name="RebootReconnectCredentialsFormInstructionHtmlText" xml:space="preserve">
+    <value>Geben Sie die Anmeldeinformationen ein, damit die Anwendung nach dem Neustart erneut eine Verbindung herstellen kann.</value>
+  </data>
+  <data name="RebootReconnectCredentialsFormTitleFormat" xml:space="preserve">
+    <value>{0} - Berechtigungsnachweise erforderlich</value>
+  </data>
+  <data name="RebootTitleFormat" xml:space="preserve">
+    <value>{0} - Neustart und Wiederverbinden</value>
+  </data>
+  <data name="SendFilesDialogTitleFormat" xml:space="preserve">
+    <value>{0} - Dateien senden</value>
+  </data>
+  <data name="SendFolderDialogDescription" xml:space="preserve">
+    <value>Bitte den Ordner für das Senden wählen:</value>
+  </data>
+  <data name="SessionHostsDisconnectedTitleFormat" xml:space="preserve">
+    <value>{0} - Anwendung beenden</value>
+  </data>
+  <data name="SessionInvalidSessionAccessTokenInvalidMessage" xml:space="preserve">
+    <value>Ihr Sitzungstoken ist abgelaufen oder ungültig. Bitte starten Sie die Anwendung neu um den Token zu erneuern.</value>
+  </data>
+  <data name="SessionInvalidSessionEndedMessage" xml:space="preserve">
+    <value>Ihr Host hat die Sitzung beendet. Die Anwendung wird sich jetzt schließen.</value>
+  </data>
+  <data name="SessionInvalidSessionForceDisconnectedMessage" xml:space="preserve">
+    <value>Sie haben sich von der Sitzung getrennt.</value>
+  </data>
+  <data name="SessionInvalidTitleFormat" xml:space="preserve">
+    <value>{0} - Anwendung beenden</value>
+  </data>
+  <data name="ShareAllMonitorsText" xml:space="preserve">
+    <value>Alle Monitore</value>
+  </data>
+  <data name="ShareAllowControlEverybodyText" xml:space="preserve">
+    <value>Jedem die Steuerung erlauben.</value>
+  </data>
+  <data name="ShareAllowControlNobodyText" xml:space="preserve">
+    <value>Nicht jedem die Steuerung erlauben.</value>
+  </data>
+  <data name="ShareApplicationLabelText" xml:space="preserve">
+    <value>Anwendung:</value>
+  </data>
+  <data name="ShareControlLabelText" xml:space="preserve">
+    <value>Steuerung</value>
+  </data>
+  <data name="SharedToolboxTitleFormat" xml:space="preserve">
+    <value>{0} - Geteilte Toolbox</value>
+  </data>
+  <data name="ShareShareLabelText" xml:space="preserve">
+    <value>Teilen</value>
+  </data>
+  <data name="StatusPanelConnectionStatusLabelText" xml:space="preserve">
+    <value>Verbindungsstatus</value>
+  </data>
+  <data name="StatusPanelEligibleForElevationText" xml:space="preserve">
+    <value>Diese Sitzung ist nicht erhöht</value>
+  </data>
+  <data name="StatusPanelLastErrorMessagesLabelText" xml:space="preserve">
+    <value>Letzte Fehlermeld.</value>
+  </data>
+  <data name="StatusPanelMessagesReceivedLabelText" xml:space="preserve">
+    <value>Nachrichten erhalten</value>
+  </data>
+  <data name="StatusPanelMessagesSentLabelText" xml:space="preserve">
+    <value>Nachrichten gesendet</value>
+  </data>
+  <data name="StatusPanelTimeConnectedLabelText" xml:space="preserve">
+    <value>Zeit verbunden</value>
+  </data>
+  <data name="ToolboxEmptyMessage" xml:space="preserve">
+    <value>Ihre Toolbox ist leer. Fügen Sie Tools hinzu in dem Sie die u.a. Optionen nutzen. Die Toolbox stellt Ein-Klick-Zugriff bereit um eine Datei auf eine entfernte Maschine zu senden und diese sofort auszuführen.</value>
+  </data>
+  <data name="ToolboxFormDeleteText" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ToolboxFormNewDirectoryText" xml:space="preserve">
+    <value>Neues Verzeichnis</value>
+  </data>
+  <data name="ToolboxFormRenameText" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="ToolboxFormUploadDirectoryText" xml:space="preserve">
+    <value>Verzeichnis hochladen</value>
+  </data>
+  <data name="ToolboxFormUploadFilesText" xml:space="preserve">
+    <value>Datei(en) hochladen</value>
+  </data>
+  <data name="ToolboxLoadingMessage" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="UnderControlBannerTextFormat" xml:space="preserve">
+    <value>Ihr Computer wird von {0} gesteuert.</value>
+  </data>
+  <data name="UpgradeCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="UpgradePrompt" xml:space="preserve">
+    <value>Eine neue Version der {0} Software ist erhältlich ({1}). Jetzt aktualisieren?</value>
+  </data>
+  <data name="UpgradeTitleFormat" xml:space="preserve">
+    <value>{0} - Aktualisierung erhältlich</value>
+  </data>
+  <data name="UpgradeUpgradeButtonText" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+</root>

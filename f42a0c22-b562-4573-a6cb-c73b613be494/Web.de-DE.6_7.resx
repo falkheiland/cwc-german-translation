@@ -1,0 +1,2399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityPanel.ReloadingMessage" xml:space="preserve">
+    <value>Lade neu...</value>
+  </data>
+  <data name="ActivityPanel.SaveReloadingMessage" xml:space="preserve">
+    <value>Daten gesichert. Lade neu...</value>
+  </data>
+  <data name="AdministrationPanel.AppearanceTabName" xml:space="preserve">
+    <value>Erscheinungsbild</value>
+  </data>
+  <data name="AdministrationPanel.AuditTabName" xml:space="preserve">
+    <value>Prüfung</value>
+  </data>
+  <data name="AdministrationPanel.DatabaseTabName" xml:space="preserve">
+    <value>Datenbank</value>
+  </data>
+  <data name="AdministrationPanel.ExtensionsTabName" xml:space="preserve">
+    <value>Erweiterungen</value>
+  </data>
+  <data name="AdministrationPanel.LicenseTabName" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="AdministrationPanel.SaveButtonTextFormat" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="AdministrationPanel.SecurityTabName" xml:space="preserve">
+    <value>Sicherheit</value>
+  </data>
+  <data name="AdministrationPanel.TriggersHideExtraText" xml:space="preserve">
+    <value>Hinweis verstecken</value>
+  </data>
+  <data name="AdministrationPanel.TriggersShowExtraText" xml:space="preserve">
+    <value>Hinweis zeigen</value>
+  </data>
+  <data name="AdministrationPanel.TriggersTabName" xml:space="preserve">
+    <value>Auslöser</value>
+  </data>
+  <data name="AppearancePanel.ClientResourcesLabelText" xml:space="preserve">
+    <value>Client Ressourcen</value>
+  </data>
+  <data name="AppearancePanel.KeyHeaderText" xml:space="preserve">
+    <value>Schlüssel</value>
+  </data>
+  <data name="AppearancePanel.PreviewHeading" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="AppearancePanel.PreviewLinkText" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="AppearancePanel.ValueHeaderText" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="AppearancePanel.VisualThemeLabelText" xml:space="preserve">
+    <value>Visuelles Thema</value>
+  </data>
+  <data name="AppearancePanel.WebResourcesLabelText" xml:space="preserve">
+    <value>Web Ressourcen</value>
+  </data>
+  <data name="AuditPanel.AuditEntryCaptureFormat" xml:space="preserve">
+    <value>Aufnehmen: {0}, &lt;a href="{1}"&gt; Video herunterladen &lt;/a&gt;</value>
+  </data>
+  <data name="AuditPanel.AuditEntryConnectionEventFormat" xml:space="preserve">
+    <value>Ereignis: {0}, Prozess: {1}, Teilnehmer: {2}, Adresse: {3}, Daten: {4}</value>
+  </data>
+  <data name="AuditPanel.AuditEntryEventFormat" xml:space="preserve">
+    <value>Ereignis: {0}, Host: {1}, Daten: {2}</value>
+  </data>
+  <data name="AuditPanel.AuditLevelLabelText" xml:space="preserve">
+    <value>Audit Stufe:</value>
+  </data>
+  <data name="AuditPanel.BasicLevelDescription" xml:space="preserve">
+    <value>Verfolgen grundlegender Sitzungsereignisse wie Verbinden, Trennen, Neuinstallationen, Deinstallationen, Übertragungen und Notizen. Daten wie Hostname und IP-Adresse sind enthalten. Verbraucht wenig Speicherplatz.</value>
+  </data>
+  <data name="AuditPanel.BasicLevelTitle" xml:space="preserve">
+    <value>Grundlegende Prüfung</value>
+  </data>
+  <data name="AuditPanel.EmptyQueryMessage" xml:space="preserve">
+    <value>Kein Eintrag entspricht Ihrer Suche.</value>
+  </data>
+  <data name="AuditPanel.ExtendedLevelDescription" xml:space="preserve">
+    <value>Überprüfe alles in der Grundprüfung. Darüber hinaus werden alle erfassten Bildschirmaktivitäten aus jeder Sitzung gespeichert. Captures können als Videodateien heruntergeladen werden. WARNUNG: Verbraucht erheblichen Speicherplatz.</value>
+  </data>
+  <data name="AuditPanel.ExtendedLevelTitle" xml:space="preserve">
+    <value>Erweiterte Prüfung</value>
+  </data>
+  <data name="AuditPanel.QueryAuditLogLabelText" xml:space="preserve">
+    <value>Überwachungsprotokoll abfragen</value>
+  </data>
+  <data name="AuditPanel.QueryButtonText" xml:space="preserve">
+    <value>Überwachungsprotokoll abfragen</value>
+  </data>
+  <data name="AuditPanel.QueryResultEmptyMessage" xml:space="preserve">
+    <value>Kein Ergebnis entspricht der Abfrage.</value>
+  </data>
+  <data name="AuditPanel.SessionHeaderText" xml:space="preserve">
+    <value>Sitzung</value>
+  </data>
+  <data name="AuditPanel.SessionNameLabelText" xml:space="preserve">
+    <value>Sitzungsname:</value>
+  </data>
+  <data name="AuditPanel.StayLevelText" xml:space="preserve">
+    <value>Bleiben Sie bei dieser Prüfungsstufe</value>
+  </data>
+  <data name="AuditPanel.SwitchLevelText" xml:space="preserve">
+    <value>Wechseln Sie zu dieser Prüfungsstufe</value>
+  </data>
+  <data name="AuditPanel.TimeHeaderText" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="AuditPanel.TimeRangeBeginLabelText" xml:space="preserve">
+    <value>Zeitbereich Beginn:</value>
+  </data>
+  <data name="AuditPanel.TimeRangeEndLabelText" xml:space="preserve">
+    <value>Zeitbereich Ende:</value>
+  </data>
+  <data name="BuildInstallerPanel.ButtonText" xml:space="preserve">
+    <value>Erledigt</value>
+  </data>
+  <data name="BuildInstallerPanel.EmailSubjectFormat" xml:space="preserve">
+    <value>{0} hat Ihnen ein ConnectWise Control-Agent-Installationsprogramm gesendet</value>
+  </data>
+  <data name="BuildInstallerPanel.InstallerTypeLabelText" xml:space="preserve">
+    <value>Typ:</value>
+  </data>
+  <data name="BuildInstallerPanel.Paragraph1Message" xml:space="preserve">
+    <value>Erstellen Sie ein Installationsprogramm für die Bereitstellung auf Remotecomputern und installieren Sie den Zugriffsagenten permanent. Nach der Installation wird der Agent im Bereich Aufschalten angezeigt.</value>
+  </data>
+  <data name="BuildInstallerPanel.Paragraph2Message" xml:space="preserve">
+    <value>Beschriften Sie Ihre Maschinen mit den folgenden Feldern und wählen Sie Ihren Installationstyp:</value>
+  </data>
+  <data name="BuildInstallerPanel.ShareMessage" xml:space="preserve">
+    <value>Wählen Sie eine Option, um Ihr Installationsprogramm freizugeben:</value>
+  </data>
+  <data name="BuildInstallerPanel.TextEmailBodyFormat" xml:space="preserve">
+    <value>Rufen Sie die folgende Webadresse auf, um das Installationsprogramm herunterzuladen:  &lt;{1}&gt;</value>
+  </data>
+  <data name="BuildInstallerPanel.Title" xml:space="preserve">
+    <value>Installer erstellen</value>
+  </data>
+  <data name="ChangeAuditLevelPanel.ButtonText" xml:space="preserve">
+    <value>Audit Level anwenden</value>
+  </data>
+  <data name="ChangeAuditLevelPanel.Title" xml:space="preserve">
+    <value>Audit Level ändern</value>
+  </data>
+  <data name="ChangePasswordPanel.ButtonText" xml:space="preserve">
+    <value>Passwort ändern</value>
+  </data>
+  <data name="ChangePasswordPanel.CurrentPasswordInvalidMessage" xml:space="preserve">
+    <value>Ungültiges aktuelles Passwort Bitte versuchen Sie es erneut.</value>
+  </data>
+  <data name="ChangePasswordPanel.CurrentPasswordPlaceholderText" xml:space="preserve">
+    <value>Aktuelles Passwort</value>
+  </data>
+  <data name="ChangePasswordPanel.Heading" xml:space="preserve">
+    <value>Passwort ändern</value>
+  </data>
+  <data name="ChangePasswordPanel.LockedOutMessage" xml:space="preserve">
+    <value>Zu viele falsche Passwortversuche; Sie wurden ausgesperrt.</value>
+  </data>
+  <data name="ChangePasswordPanel.NewPasswordInvalidMessage" xml:space="preserve">
+    <value>Ungültiges neues Passwort Bitte versuchen Sie es erneut.</value>
+  </data>
+  <data name="ChangePasswordPanel.NewPasswordMatchInvalidMessage" xml:space="preserve">
+    <value>Neues Passwort und Bestätigung stimmen nicht überein. Bitte versuche es erneut.</value>
+  </data>
+  <data name="ChangePasswordPanel.NewPasswordPlaceholderText" xml:space="preserve">
+    <value>Neues Passwort</value>
+  </data>
+  <data name="ChangePasswordPanel.NotSupportedMessage" xml:space="preserve">
+    <value>Das Ändern des Passworts wird in Ihrer aktuellen Konfiguration nicht unterstützt.</value>
+  </data>
+  <data name="ChangePasswordPanel.SuccessText" xml:space="preserve">
+    <value>Passwort erfolgreich geändert</value>
+  </data>
+  <data name="ChangePasswordPanel.UserNameInvalidMessage" xml:space="preserve">
+    <value>Ungültiger Benutzername. Bitte versuchen Sie es erneut.</value>
+  </data>
+  <data name="ChangePasswordPanel.UserNamePlaceholderText" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="ChangePasswordPanel.VerifyNewPasswordPlaceholderText" xml:space="preserve">
+    <value>neues Passwort bestätigen</value>
+  </data>
+  <data name="ChangesMadePrompt.Text" xml:space="preserve">
+    <value>Nicht gespeicherte Änderungen wurden vorgenommen.</value>
+  </data>
+  <data name="CloneSessionGroup.NameFormat" xml:space="preserve">
+    <value>{0} (Klonen)</value>
+  </data>
+  <data name="Command.AddLicense.ButtonText" xml:space="preserve">
+    <value>Lizenz hinzufügen</value>
+  </data>
+  <data name="Command.AddLicense.Message" xml:space="preserve">
+    <value>Fügen Sie Ihre Lizenz in das folgende Feld hinzu:</value>
+  </data>
+  <data name="Command.AddLicense.Text" xml:space="preserve">
+    <value>Fügen Sie eine andere Lizenz hinzu</value>
+  </data>
+  <data name="Command.AddNote.ButtonText" xml:space="preserve">
+    <value>Notiz hinzufügen</value>
+  </data>
+  <data name="Command.AddNote.EmptyTitle" xml:space="preserve">
+    <value>Noch keine Notizen hinzugefügt</value>
+  </data>
+  <data name="Command.AddNote.Message" xml:space="preserve">
+    <value>Fügen Sie Notizen hinzu, um die Arbeit zu protokollieren, oder geben Sie eine Identifikation für Sitzungen an.</value>
+  </data>
+  <data name="Command.AddNote.PlaceholderText" xml:space="preserve">
+    <value>Geben Sie eine Notiz ein</value>
+  </data>
+  <data name="Command.AddNote.Text" xml:space="preserve">
+    <value>Notiz hinzufügen</value>
+  </data>
+  <data name="Command.AddUserSource.Text" xml:space="preserve">
+    <value>Benutzerquelle hinzufügen ▽</value>
+  </data>
+  <data name="Command.ChangeAuditLevel.Text" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Command.ChangeCodeToName.Text" xml:space="preserve">
+    <value>Ändern Sie den Code in Name</value>
+  </data>
+  <data name="Command.ChangePassword.Text" xml:space="preserve">
+    <value>Passwort ändern</value>
+  </data>
+  <data name="Command.Check.CheckText" xml:space="preserve">
+    <value>Prüfung:</value>
+  </data>
+  <data name="Command.Check.WhereText" xml:space="preserve">
+    <value>Oder wo:</value>
+  </data>
+  <data name="Command.CheckAll.Text" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Command.CheckBoth.Text" xml:space="preserve">
+    <value>Beide verbunden</value>
+  </data>
+  <data name="Command.CheckNeither.Text" xml:space="preserve">
+    <value>Niemand verbunden</value>
+  </data>
+  <data name="Command.CheckNone.Text" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="Command.CheckOnlyGuest.Text" xml:space="preserve">
+    <value>Nur Gast verbunden</value>
+  </data>
+  <data name="Command.CheckOnlyHost.Text" xml:space="preserve">
+    <value>Nur Host verbunden</value>
+  </data>
+  <data name="Command.CloneRole.Text" xml:space="preserve">
+    <value>Klonen</value>
+  </data>
+  <data name="Command.CloneSessionGroup.Text" xml:space="preserve">
+    <value>Klonen</value>
+  </data>
+  <data name="Command.CopyHostPass.Text" xml:space="preserve">
+    <value>URL kopieren</value>
+  </data>
+  <data name="Command.CopyInstallerURL.Text" xml:space="preserve">
+    <value>URL kopieren</value>
+  </data>
+  <data name="Command.CopyToClipboard.FailureMessage" xml:space="preserve">
+    <value>Fehler beim Kopieren in die Zwischenablag</value>
+  </data>
+  <data name="Command.CopyToClipboard.SuccessMessage" xml:space="preserve">
+    <value>In die Zwischenablage kopiert</value>
+  </data>
+  <data name="Command.CopyToClipboard.Text" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Command.CreateAction.Text" xml:space="preserve">
+    <value>Aktion erstellen</value>
+  </data>
+  <data name="Command.CreateRole.Text" xml:space="preserve">
+    <value>Rolle erstellen</value>
+  </data>
+  <data name="Command.CreateSessionGroup.Text" xml:space="preserve">
+    <value>+ Erstellen Sie eine Sitzungsgruppe</value>
+  </data>
+  <data name="Command.CreateUser.Text" xml:space="preserve">
+    <value>Benutzer erstellen</value>
+  </data>
+  <data name="Command.DeleteAction.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.DeleteRole.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.DeleteSessionGroup.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.DeleteToolboxItem.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.DeleteUser.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.DevelopExtension.Text" xml:space="preserve">
+    <value>Entwickeln</value>
+  </data>
+  <data name="Command.Disable.Text" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="Command.DownloadInstaller.Text" xml:space="preserve">
+    <value>Herunterladen</value>
+  </data>
+  <data name="Command.Edit.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.EditAction.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.EditExtensionSettings.Text" xml:space="preserve">
+    <value>Einstellungen bearbeiten</value>
+  </data>
+  <data name="Command.EditResource.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.EditRole.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.EditSchedule.Text" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Command.EditSessionGroup.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.EditSetting.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.EditSettings.Text" xml:space="preserve">
+    <value>Konfigurieren</value>
+  </data>
+  <data name="Command.EditUser.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Command.Enable.Text" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="Command.End.ButtonText" xml:space="preserve">
+    <value>Sitzungen beenden</value>
+  </data>
+  <data name="Command.End.Message" xml:space="preserve">
+    <value>Beenden wird die Sitzungen aus dieser Ansicht entfernen. Sie und Ihre Gäste werden von der Sitzung getrennt und können in der Zukunft nicht beitreten.</value>
+  </data>
+  <data name="Command.End.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="Command.GenerateMetadata.Text" xml:space="preserve">
+    <value>Generiere Metadaten</value>
+  </data>
+  <data name="Command.GetHostPass.Text" xml:space="preserve">
+    <value>Host-Pass erhalten</value>
+  </data>
+  <data name="Command.GiveFeedback.ButtonText" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="Command.GiveFeedback.Text" xml:space="preserve">
+    <value>Feedback geben</value>
+  </data>
+  <data name="Command.Help.Text" xml:space="preserve">
+    <value>Hilfe ▽</value>
+  </data>
+  <data name="Command.InstallAccess.Text" xml:space="preserve">
+    <value>Aufschalten installieren</value>
+  </data>
+  <data name="Command.Invite.Text" xml:space="preserve">
+    <value>Einladen</value>
+  </data>
+  <data name="Command.Join.Text" xml:space="preserve">
+    <value>Beitreten</value>
+  </data>
+  <data name="Command.Login.Text" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="Command.Logout.Text" xml:space="preserve">
+    <value>Ausloggen</value>
+  </data>
+  <data name="Command.LookupUser.Text" xml:space="preserve">
+    <value>Benutzer nachschlagen</value>
+  </data>
+  <data name="Command.MakeSessionPrivate.Text" xml:space="preserve">
+    <value>Sitzung privat machen</value>
+  </data>
+  <data name="Command.MakeSessionPublic.Text" xml:space="preserve">
+    <value>Sitzung öffentlich machen</value>
+  </data>
+  <data name="Command.ManageToolbox.ButtonText" xml:space="preserve">
+    <value>Toolbox verwalten</value>
+  </data>
+  <data name="Command.ManageToolbox.Message" xml:space="preserve">
+    <value>Verwalten Sie Ihren freigegebenen Toolbox-Ordner.</value>
+  </data>
+  <data name="Command.ManageToolbox.Text" xml:space="preserve">
+    <value>Toolbox verwalten</value>
+  </data>
+  <data name="Command.More.Text" xml:space="preserve">
+    <value>Mehr</value>
+  </data>
+  <data name="Command.MoveSessionGroupToBottom.Text" xml:space="preserve">
+    <value>Nach unten verschieben</value>
+  </data>
+  <data name="Command.MoveSessionGroupToPosition.Text" xml:space="preserve">
+    <value>Zu Position verschieben</value>
+  </data>
+  <data name="Command.MoveSessionGroupToTop.Text" xml:space="preserve">
+    <value>Nach oben verschieben</value>
+  </data>
+  <data name="Command.NavigateControlPanel.Text" xml:space="preserve">
+    <value>Schalttafel</value>
+  </data>
+  <data name="Command.OpenEmail.SuccessMessage" xml:space="preserve">
+    <value>E-Mail geöffnet</value>
+  </data>
+  <data name="Command.OpenEmail.Text" xml:space="preserve">
+    <value>Im E-Mail-Client öffnen</value>
+  </data>
+  <data name="Command.Options.Text" xml:space="preserve">
+    <value>Optionen ▽</value>
+  </data>
+  <data name="Command.Reinstall.ButtonText" xml:space="preserve">
+    <value>Erneut installieren</value>
+  </data>
+  <data name="Command.Reinstall.Message" xml:space="preserve">
+    <value>Neuinstallation versucht, die Software des Remote-Computers auf die aktuelle Version zu aktualisieren. Es wird zu dem Zeitpunkt verarbeitet, zu dem die Maschine verbunden ist, ohne dass ein Host angeschlossen ist.</value>
+  </data>
+  <data name="Command.Reinstall.Text" xml:space="preserve">
+    <value>Erneut installieren</value>
+  </data>
+  <data name="Command.Remove.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.RemoveLicense.ButtonText" xml:space="preserve">
+    <value>Lizenz entfernen</value>
+  </data>
+  <data name="Command.RemoveLicense.Message" xml:space="preserve">
+    <value>Möchten Sie diese Lizenz wirklich entfernen? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/b&gt;</value>
+  </data>
+  <data name="Command.RemoveLicense.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Command.RevokeAccess.Text" xml:space="preserve">
+    <value>Widerrufen</value>
+  </data>
+  <data name="Command.RunCommand.ButtonText" xml:space="preserve">
+    <value>Befehl ausführen</value>
+  </data>
+  <data name="Command.RunCommand.EmptyTitle" xml:space="preserve">
+    <value>Noch keine Befehle gesendet</value>
+  </data>
+  <data name="Command.RunCommand.Message" xml:space="preserve">
+    <value>Führen Sie Befehle auf den Remote-Systemen aus. Die Ergebnisse der Befehle können in jeder Sitzung angezeigt werden.</value>
+  </data>
+  <data name="Command.RunCommand.PlaceholderText" xml:space="preserve">
+    <value>Befehl eingeben</value>
+  </data>
+  <data name="Command.RunCommand.Text" xml:space="preserve">
+    <value>Befehl ausführen</value>
+  </data>
+  <data name="Command.RunTool.ButtonText" xml:space="preserve">
+    <value>Werkzeug ausführen</value>
+  </data>
+  <data name="Command.RunTool.Message" xml:space="preserve">
+    <value>Führen Sie ein Tool auf dem Remote-System aus. Das Werkzeug wird ausgeführt, wenn die Maschine angeschlossen ist.</value>
+  </data>
+  <data name="Command.RunTool.Text" xml:space="preserve">
+    <value>Werkzeug ausführen</value>
+  </data>
+  <data name="Command.RunToolElevated.Text" xml:space="preserve">
+    <value>Werkzeug mit erhöhten Rechten ausführen</value>
+  </data>
+  <data name="Command.SelectCalendar.Text" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Command.SelectCommands.Text" xml:space="preserve">
+    <value>Befehle</value>
+  </data>
+  <data name="Command.SelectGeneral.Text" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="Command.SelectMessages.Text" xml:space="preserve">
+    <value>Nachrichten</value>
+  </data>
+  <data name="Command.SelectNotes.Text" xml:space="preserve">
+    <value>Notizen</value>
+  </data>
+  <data name="Command.SelectTimeline.Text" xml:space="preserve">
+    <value>Zeitleiste</value>
+  </data>
+  <data name="Command.SendEmail.PlaceholderText" xml:space="preserve">
+    <value>EMail Adresse</value>
+  </data>
+  <data name="Command.SendEmail.SuccessMessage" xml:space="preserve">
+    <value>EMail versendet</value>
+  </data>
+  <data name="Command.SendEmail.Text" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="Command.SendHostPass.Text" xml:space="preserve">
+    <value>Link senden ▽</value>
+  </data>
+  <data name="Command.SendInstallerEmail.Text" xml:space="preserve">
+    <value>Link senden ▽</value>
+  </data>
+  <data name="Command.SendMessage.ButtonText" xml:space="preserve">
+    <value>Nachricht senden</value>
+  </data>
+  <data name="Command.SendMessage.EmptyTitle" xml:space="preserve">
+    <value>Es wurden noch keine Nachrichten ausgetauscht</value>
+  </data>
+  <data name="Command.SendMessage.Message" xml:space="preserve">
+    <value>Senden Sie Nachrichten an die Remote-Systeme. Die Nachrichten werden dem Benutzer in der Client-Software angezeigt.</value>
+  </data>
+  <data name="Command.SendMessage.PlaceholderText" xml:space="preserve">
+    <value>Geben Sie eine Nachricht ein</value>
+  </data>
+  <data name="Command.SendMessage.Text" xml:space="preserve">
+    <value>Nachricht senden</value>
+  </data>
+  <data name="Command.ShowAll.Text" xml:space="preserve">
+    <value>Alles zeigen</value>
+  </data>
+  <data name="Command.ShowExtensionBrowser.Text" xml:space="preserve">
+    <value>Durchsuche Online Erweiterungen</value>
+  </data>
+  <data name="Command.ShowExtensionBrowserInstalled.Text" xml:space="preserve">
+    <value>Prüfe auf Updates</value>
+  </data>
+  <data name="Command.StartCreateToolboxDirectory.Text" xml:space="preserve">
+    <value>Neues Verzeichnis</value>
+  </data>
+  <data name="Command.StartRenameToolboxItem.Text" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="Command.ToggleExpandedHideUserLookup.Text" xml:space="preserve">
+    <value>Suchformular ausblenden</value>
+  </data>
+  <data name="Command.ToggleExpandedHideUserTable.Text" xml:space="preserve">
+    <value>Benutzer-Tabelle ausblenden</value>
+  </data>
+  <data name="Command.ToggleExpandedShowUserLookup.Text" xml:space="preserve">
+    <value>Suchformular zeigen</value>
+  </data>
+  <data name="Command.ToggleExpandedShowUserTable.Text" xml:space="preserve">
+    <value>Benutzer-Tabelle zeigen</value>
+  </data>
+  <data name="Command.ToggleReferenceHide.Text" xml:space="preserve">
+    <value>Hinweis ausblenden</value>
+  </data>
+  <data name="Command.ToggleReferenceShow.Text" xml:space="preserve">
+    <value>Hinweis zeigen</value>
+  </data>
+  <data name="Command.Toolbox.EmptyMessage" xml:space="preserve">
+    <value>Ihre geteilte Toolbox ist leer. Ziehen Sie eine Datei in dieses Fenster, um sie in die Toolbox hochzuladen. Klicken Sie mit der rechten Maustaste, um weitere Optionen anzuzeigen.</value>
+  </data>
+  <data name="Command.Transfer.ButtonText" xml:space="preserve">
+    <value>Sitzungen übertragen</value>
+  </data>
+  <data name="Command.Transfer.Message" xml:space="preserve">
+    <value>Sitzungen auf einen anderen Host übertragen:</value>
+  </data>
+  <data name="Command.Transfer.Text" xml:space="preserve">
+    <value>Übertragen</value>
+  </data>
+  <data name="Command.Uninstall.ButtonText" xml:space="preserve">
+    <value>Deinstallieren</value>
+  </data>
+  <data name="Command.Uninstall.Message" xml:space="preserve">
+    <value>Bei der Deinstallation wird versucht, die Client-Software vom Remote-Computer zu entfernen. Es wird zu dem Zeitpunkt verarbeitet, zu dem die Maschine verbunden ist, ohne dass ein Host angeschlossen ist.</value>
+  </data>
+  <data name="Command.Uninstall.Text" xml:space="preserve">
+    <value>Deinstallieren</value>
+  </data>
+  <data name="Command.UninstallExtension.ButtonText" xml:space="preserve">
+    <value>Erweiterung deinstallieren</value>
+  </data>
+  <data name="Command.UninstallExtension.Message" xml:space="preserve">
+    <value>Deinstallieren löscht die Erweiterung von Ihrer Installation. Fortsetzen?</value>
+  </data>
+  <data name="Command.UninstallExtension.Text" xml:space="preserve">
+    <value>Deinstallieren</value>
+  </data>
+  <data name="Command.UpdateGuestInfo.Text" xml:space="preserve">
+    <value>Gästeinfo aktualisieren</value>
+  </data>
+  <data name="Command.UpgradeLicense.Text" xml:space="preserve">
+    <value>Lizenzen kaufen oder upgraden</value>
+  </data>
+  <data name="Command.UploadToolboxFile.Text" xml:space="preserve">
+    <value>Datei(en) hochladen</value>
+  </data>
+  <data name="Command.Wake.ButtonText" xml:space="preserve">
+    <value>Aufwecken</value>
+  </data>
+  <data name="Command.Wake.Message" xml:space="preserve">
+    <value>Aufwecken löst Wake-on-LAN-Signale von anderen Computern im selben Netzwerk wie dieses System aus. Das Gerät wird aus dem Ruhezustand aufgeweckt, wenn das Gerät für Wake-on-LAN konfiguriert ist.</value>
+  </data>
+  <data name="Command.Wake.Text" xml:space="preserve">
+    <value>Aufwecken</value>
+  </data>
+  <data name="CreateSessionPanel.ButtonText" xml:space="preserve">
+    <value>Sitzung erstellen</value>
+  </data>
+  <data name="CreateSessionPanel.JoinNowText" xml:space="preserve">
+    <value>Jetzt beitreten</value>
+  </data>
+  <data name="CreateSessionPanel.MeetingTitle" xml:space="preserve">
+    <value>Einladen Sitzung erstellen</value>
+  </data>
+  <data name="CreateSessionPanel.SupportTitle" xml:space="preserve">
+    <value>Unterstützen Sitzungerstellen</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.CompactDatabase" xml:space="preserve">
+    <value>Datenbankdateien verkleinern</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.DeleteEndedSessions" xml:space="preserve">
+    <value>{1}: Beendete Sitzungen löschen, die älter als {0} sind</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.DeleteSessionActivity" xml:space="preserve">
+    <value>{1}: {3} Ereignisse löschen, die älter als {0} sind.</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.DeleteSessionCaptures" xml:space="preserve">
+    <value>Sitzungsaufzeichnungen löschen, die älter als {0} sind</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.DeleteSessionConnections" xml:space="preserve">
+    <value>{1}: {2} Verbindungen löschen, die älter als {0} sind</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.DeleteSessionConnections.ConnectionTypesContraction" xml:space="preserve">
+    <value>und</value>
+  </data>
+  <data name="DatabasePanel.ActionDescriptions.Invalid" xml:space="preserve">
+    <value>Ungültige Aktionsdaten</value>
+  </data>
+  <data name="DatabasePanel.EmptyText" xml:space="preserve">
+    <value>Derzeit sind keine Aktionen vorhanden</value>
+  </data>
+  <data name="DatabasePanel.EventTypesAllEventsExceptText" xml:space="preserve">
+    <value>Alle Ereignisse AUSSER {0}</value>
+  </data>
+  <data name="DatabasePanel.EventTypesAllEventsText" xml:space="preserve">
+    <value>Alle Ereignisse</value>
+  </data>
+  <data name="DatabasePanel.EventTypesNoEventsText" xml:space="preserve">
+    <value>Keine Ereignisse</value>
+  </data>
+  <data name="DatabasePanel.MaintenancePlanActionDescriptionText" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DatabasePanel.MaintenancePlanActionsText" xml:space="preserve">
+    <value>Wartungsplan Aktionen</value>
+  </data>
+  <data name="DatabasePanel.MaintenancePlanParameterDescription.DaysAgo" xml:space="preserve">
+    <value>Tage her</value>
+  </data>
+  <data name="DatabasePanel.MaintenancePlanScheduleText" xml:space="preserve">
+    <value>Wartungsplan Zeitplan</value>
+  </data>
+  <data name="DatabasePanel.ManyDaysAgoText" xml:space="preserve">
+    <value>{0} Tage</value>
+  </data>
+  <data name="DatabasePanel.OneDayAgoText" xml:space="preserve">
+    <value>{0} Tag</value>
+  </data>
+  <data name="DatabasePanel.Schedule.ManyDays" xml:space="preserve">
+    <value>{0} Tage</value>
+  </data>
+  <data name="DatabasePanel.Schedule.OneDay" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="DatabasePanel.Schedule.Text" xml:space="preserve">
+    <value>Ausführen jede {0} um {1} Server lokale Zeit</value>
+  </data>
+  <data name="DatabasePanel.Schedule.TextPlanDisabled" xml:space="preserve">
+    <value>Ausführen jede {0} um {1} Server lokale Zeit (Wartungsplan ist deaktiviert)</value>
+  </data>
+  <data name="DefaultCustomSelector.CustomLabelText" xml:space="preserve">
+    <value>Angepasst:</value>
+  </data>
+  <data name="DefaultCustomSelector.DefaultLabelText" xml:space="preserve">
+    <value>Standard:</value>
+  </data>
+  <data name="DeleteActionPanel.ButtonText" xml:space="preserve">
+    <value>Aktion loschen</value>
+  </data>
+  <data name="DeleteActionPanel.Text" xml:space="preserve">
+    <value>Möchten Sie diese Aktion wirklich löschen? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>
+  </data>
+  <data name="DeleteActionPanel.Title" xml:space="preserve">
+    <value>Aktion loschen</value>
+  </data>
+  <data name="DeleteRolePanel.ButtonText" xml:space="preserve">
+    <value>Rolle löschen</value>
+  </data>
+  <data name="DeleteRolePanel.Text" xml:space="preserve">
+    <value>Möchten Sie diese Rolle wirklich löschen? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>
+  </data>
+  <data name="DeleteRolePanel.Title" xml:space="preserve">
+    <value>Rolle löschen</value>
+  </data>
+  <data name="DeleteSessionGroupPanel.ButtonText" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="DeleteSessionGroupPanel.DeleteSessionGroupFormat" xml:space="preserve">
+    <value>Möchten Sie die Sitzungsgruppe "{0}" wirklich löschen? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>
+  </data>
+  <data name="DeleteSessionGroupPanel.Title" xml:space="preserve">
+    <value>Sitzungsgruppe löschen</value>
+  </data>
+  <data name="DeleteToolboxItemPanel.CancelText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="DeleteToolboxItemPanel.DeleteText" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="DeleteToolboxItemPanel.MessageFormat" xml:space="preserve">
+    <value>Möchten Sie "{0}" wirklich löschen?</value>
+  </data>
+  <data name="DeleteUserPanel.ButtonText" xml:space="preserve">
+    <value>Benutzer löschen</value>
+  </data>
+  <data name="DeleteUserPanel.Text" xml:space="preserve">
+    <value>Möchten Sie diesen Nutzer wirklich löschen? &lt;b&gt;Diese Aktion kann nicht rückgängig gemacht werden.&lt;/b&gt;</value>
+  </data>
+  <data name="DeleteUserPanel.Title" xml:space="preserve">
+    <value>Benutzer löschen</value>
+  </data>
+  <data name="DisableUserSourcePanel.ButtonText" xml:space="preserve">
+    <value>Benutzerquelle löschen</value>
+  </data>
+  <data name="DisableUserSourcePanel.Text" xml:space="preserve">
+    <value>Möchten Sie diese Benutzerquelle wirklich deaktivieren?</value>
+  </data>
+  <data name="DisableUserSourcePanel.Title" xml:space="preserve">
+    <value>Benutzerquelle deaktivieren</value>
+  </data>
+  <data name="EditActionPanel.ActionTypeCompactDatabaseText" xml:space="preserve">
+    <value>Datenbank verkleinern</value>
+  </data>
+  <data name="EditActionPanel.ActionTypeDeleteEndedSessionsText" xml:space="preserve">
+    <value>Aufnahmen von beendeten Sitzungen löschen</value>
+  </data>
+  <data name="EditActionPanel.ActionTypeDeleteSessionActivityText" xml:space="preserve">
+    <value>Aufnahmen der Sitzungsaktivität löschen</value>
+  </data>
+  <data name="EditActionPanel.ActionTypeDeleteSessionCapturesText" xml:space="preserve">
+    <value>erweiterte Auditing-Aufnahmen löschen</value>
+  </data>
+  <data name="EditActionPanel.ActionTypeDeleteSessionConnectionsText" xml:space="preserve">
+    <value>Lösche Datensätze von Sitzungsverbindungen</value>
+  </data>
+  <data name="EditActionPanel.ActionTypeLabelText" xml:space="preserve">
+    <value>Aktivitätstyp:</value>
+  </data>
+  <data name="EditActionPanel.ButtonText" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="EditActionPanel.ConnectionTypesLabelText" xml:space="preserve">
+    <value>zu löschende Verbindungen:</value>
+  </data>
+  <data name="EditActionPanel.CreateTitle" xml:space="preserve">
+    <value>Aktion erstellen:</value>
+  </data>
+  <data name="EditActionPanel.DaysAgoLabelText" xml:space="preserve">
+    <value>Lösche Daten älter als:</value>
+  </data>
+  <data name="EditActionPanel.DaysAgoText" xml:space="preserve">
+    <value>Tage</value>
+  </data>
+  <data name="EditActionPanel.EditTitle" xml:space="preserve">
+    <value>Aktion bearbeiten</value>
+  </data>
+  <data name="EditActionPanel.EventTypesLabelText" xml:space="preserve">
+    <value>zu löschende Ereignisse:</value>
+  </data>
+  <data name="EditActionPanel.SessionTypeAccessText" xml:space="preserve">
+    <value>Aufschalten</value>
+  </data>
+  <data name="EditActionPanel.SessionTypeLabelText" xml:space="preserve">
+    <value>Sitzungstyp:</value>
+  </data>
+  <data name="EditActionPanel.SessionTypeMeetingText" xml:space="preserve">
+    <value>Einladen</value>
+  </data>
+  <data name="EditActionPanel.SessionTypeSupportText" xml:space="preserve">
+    <value>Unterstützen</value>
+  </data>
+  <data name="EditResourcePanel.ButtonText" xml:space="preserve">
+    <value>Ressource speichern</value>
+  </data>
+  <data name="EditResourcePanel.ImageTooLargeErrorFormat" xml:space="preserve">
+    <value>Bild zu groß: {0:n0}kb &gt; {1:n0}kb</value>
+  </data>
+  <data name="EditResourcePanel.Message" xml:space="preserve">
+    <value>Werte zuweisen für&lt;b&gt;{0}&lt;/b&gt; Ressource &lt;b&gt;{1}&lt;/b&gt;:</value>
+  </data>
+  <data name="EditResourcePanel.Title" xml:space="preserve">
+    <value>Ressource bearbeiten</value>
+  </data>
+  <data name="EditResourcePanel.ValueHeader" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="EditRolePanel.ButtonText" xml:space="preserve">
+    <value>Rolle speichern</value>
+  </data>
+  <data name="EditRolePanel.CloneNameFormat" xml:space="preserve">
+    <value>{0} (Klonen)</value>
+  </data>
+  <data name="EditRolePanel.ConfigurablePermissionsLabelText" xml:space="preserve">
+    <value>Konfigurierbare Berechtigungen:</value>
+  </data>
+  <data name="EditRolePanel.CreateTitle" xml:space="preserve">
+    <value>Rolle erstellen</value>
+  </data>
+  <data name="EditRolePanel.EditTitle" xml:space="preserve">
+    <value>Rolle bearbeiten</value>
+  </data>
+  <data name="EditRolePanel.GlobalPermissionsLabelText" xml:space="preserve">
+    <value>Globale Berechtigungen:</value>
+  </data>
+  <data name="EditRolePanel.HasDifferentPermissionsWarningText" xml:space="preserve">
+    <value>Ihre ausgewählten Bereiche haben unterschiedliche Berechtigungssätze. Um fortzufahren, klicken Sie bitte auf "Alle auswählen" oder "Alle abwählen", damit die Berechtigung gleich ist, oder wählen Sie andere Bereiche aus.</value>
+  </data>
+  <data name="EditRolePanel.HasDifferentSessionTypesWarningHeaderText" xml:space="preserve">
+    <value>Ungültige Auswahl</value>
+  </data>
+  <data name="EditRolePanel.HasDifferentSessionTypesWarningLabelText" xml:space="preserve">
+    <value>Wählen Sie Sitzungsgruppen aus, die sich unter demselben Sitzungstyp befinden.</value>
+  </data>
+  <data name="EditRolePanel.InheritedPermissionsLabelFormat" xml:space="preserve">
+    <value>Geerbt von "{0}":</value>
+  </data>
+  <data name="EditRolePanel.Instructions" xml:space="preserve">
+    <value>Es gibt mehrere Berechtigungstypen, die Administratoren beim Definieren ihrer Rollen auswählen können:
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt; Globale Berechtigungen: &lt;/ b&gt;
+&lt;br /&gt;
+&lt;br /&gt; -
+&lt;b&gt; Verwalten &lt;/ b&gt;: Bietet Zugriff auf die Verwaltungsseite der Software.
+&lt;br /&gt; -
+&lt;b&gt; ManageSessionGroups &lt;/ b&gt;: Bietet Zugriff auf den Link Sitzungsgruppen auf der Host-Seite.
+&lt;br /&gt; -
+&lt;b&gt; CreateSupportSession &lt;/ b&gt;: Erlaubt dem Host, eine Sitzung zu erstellen (Liste, Code oder E-Mail).
+&lt;br /&gt; -
+&lt;b&gt; CreateMeetingSession &lt;/ b&gt;: Gestattet dem Host, ein neues Meeting (Online-Präsentation) zu erstellen.
+&lt;br /&gt; -
+&lt;b&gt; BuildAccessInstaller &lt;/ b&gt;: Bietet Zugriff auf das Erstellen einer Schaltfläche für den Client für unbeaufsichtigten Zugriff auf der Hostseite.
+&lt;br /&gt; -
+&lt;b&gt; ManageSharedToolbox &lt;/ b&gt;: Legt fest, ob ein Benutzer auf Eigenschaften der freigegebenen Toolbox zugreifen kann, z. B. Hinzufügen, Löschen und
+Umbenennen von Dateien oder Ordnern.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt; Bereichsberechtigungen: &lt;/ b&gt;
+&lt;br /&gt;
+&lt;br /&gt; -
+&lt;b&gt; ViewSessionGroup &lt;/ b&gt;: Legt fest, ob ein Benutzer alle Sitzungsgruppen sehen, Sitzungsgruppen unterstützen, auf Sitzungsgruppen zugreifen,
+oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; ViewSessionGuestScreenshot &lt;/ b&gt;: Ermöglicht einem Host, Bildschirmvorschaubilder von Technikern anzuzeigen. Verfügbar in 6.1+.
+&lt;br /&gt; -
+&lt;b&gt; JoinSession &lt;/ b&gt;: Bietet die Berechtigung, bestimmten Sitzungen beizutreten, einschließlich: Alle Sitzungsgruppen, Support-Sitzungsgruppen, Zugriff
+Sitzungsgruppen oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; EndSession &lt;/ b&gt;: Ermöglicht einem Benutzer das Beenden von Sitzungen in: Alle Sitzungsgruppen, Supportsitzungsgruppen, Zugriffssitzungsgruppen oder spezifisch
+Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; TransferSession &lt;/ b&gt;: Bietet die Berechtigung zum Übertragen von Sitzungen von einem Benutzer an einen anderen unter: Alle Sitzungsgruppen, Support-Sitzung
+Gruppen, Zugriff auf Sitzungsgruppen oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; EditSession &lt;/ b&gt;: Der Host kann die vorhandenen Details einer Sitzung bearbeiten, z. B. Sitzungsname und Sitzungstyp. Diese Erlaubnis
+kann auf alle Sitzungsgruppen, Sitzungsgruppen, Sitzungsgruppen oder bestimmte Sitzungsgruppen angewendet werden.
+&lt;br /&gt; -
+&lt;b&gt; RunCommandOutsideSession &lt;/ b&gt;: Ermöglicht einem Host, die Registerkarte "Commands" auf der Host-Seite zu verwenden, um terminalähnliche Befehle auf a auszuführen
+entfernte Maschine. Diese Berechtigung kann für alle Sitzungsgruppen, Sitzungsgruppen, Zugriffssitzungsgruppen oder spezifisch gelten
+Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; AddNoteToSession &lt;/ b&gt;: Bietet die Berechtigung zum Hinzufügen von Notizen zu Sitzungen in: Alle Sitzungsgruppen, Support-Sitzungsgruppen, Zugriff
+Sitzungsgruppen oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; RemoveNoteFromSession &lt;/ b&gt;: Gibt an, ob Benutzer Notizen aus bestimmten Sitzungen entfernen können, einschließlich: Alle Sitzungsgruppen,
+Unterstützen Sie Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; RemoveCommandFromSession &lt;/ b&gt;: Ein Host mit dieser Berechtigung kann die Ausgabe im Abschnitt "Befehle" der Seite "Host" löschen. Dies
+Die Berechtigung kann für alle Sitzungsgruppen, Support-Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen gelten.
+&lt;br
+/&gt; -
+&lt;b&gt; NeuinstallSession &lt;/ b&gt;: Erlaubt dem Benutzer, eine nicht geplante Sitzung erneut zu installieren, wobei er entweder das Upgrade des Installers vornimmt
+oder Aktualisieren des Installationsprogramms und Umbenennen der unbeaufsichtigten Sitzung. Zu den Optionen für Gruppen gehören: Alle Sitzungsgruppen, Support
+Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; UninstallSession &lt;/ b&gt;: Legt fest, ob der Benutzer eine unbeaufsichtigte Sitzung aus bestimmten Gruppen einschließlich: Alle entfernen kann
+Sitzungsgruppen, Support-Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen.
+&lt;br /&gt; -
+&lt;b&gt; TransferFilesInSession &lt;/ b&gt;: Ein Host mit dieser Berechtigung kann Dateien zu und von einem entfernten Rechner übertragen.
+&lt;br /&gt; -
+&lt;b&gt; PrintInSession &lt;/ b&gt;: Ermöglicht einem Host, Remote-Drucken innerhalb einer Sitzung zu verwenden. Diese Berechtigung kann für alle Sitzungsgruppen gelten.
+Unterstützen Sie Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen. Verfügbar in Version 5.6+.
+&lt;br /&gt; -
+&lt;b&gt; RunSharedToolInSession &lt;/ b&gt;: Ermöglicht einem Host, ein Tool aus der freigegebenen Toolbox auszuführen.
+&lt;br /&gt; -
+&lt;b&gt; HostSessionWithoutConsent &lt;/ b&gt;: Legt fest, ob das Dialogfeld "Click-to-Consent" auf der Seite des Gasts angezeigt wird.
+&lt;br /&gt;</value>
+  </data>
+  <data name="EditRolePanel.PermissionsForMultiScopesLabelFormat" xml:space="preserve">
+    <value>Berechtigungen für "{0}" ausgewählte Bereiche:</value>
+  </data>
+  <data name="EditRolePanel.PermissionsForScopeLabelFormat" xml:space="preserve">
+    <value>Berechtigungen für "{0}":</value>
+  </data>
+  <data name="EditRolePanel.RoleNameLabelText" xml:space="preserve">
+    <value>Rollenname:</value>
+  </data>
+  <data name="EditRolePanel.ScopedPermissionsLabelText" xml:space="preserve">
+    <value>Bezogene Berechtigungen:</value>
+  </data>
+  <data name="EditRolePanel.SelectAllButtonText" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="EditRolePanel.UnselectAllButtonText" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="EditSchedulePanel.ButtonText" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="EditSchedulePanel.RunAtTimeLabelText" xml:space="preserve">
+    <value>Lokale Serverzeit (24H):</value>
+  </data>
+  <data name="EditSchedulePanel.RunFrequencyLabelText" xml:space="preserve">
+    <value>Wartung ausführen alle:</value>
+  </data>
+  <data name="EditSchedulePanel.RunFrequencyText" xml:space="preserve">
+    <value>Tage</value>
+  </data>
+  <data name="EditSchedulePanel.TimeFormatErrorMessage" xml:space="preserve">
+    <value>Bitte geben Sie die Serverzeit als HH: MM ein</value>
+  </data>
+  <data name="EditSchedulePanel.Title" xml:space="preserve">
+    <value>Zeitplan bearbeiten</value>
+  </data>
+  <data name="EditSessionGroupPanel.ButtonText" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="EditSessionGroupPanel.CloneButtonText" xml:space="preserve">
+    <value>Klonen</value>
+  </data>
+  <data name="EditSessionGroupPanel.CloneTitle" xml:space="preserve">
+    <value>Sitzungsgruppe klonen</value>
+  </data>
+  <data name="EditSessionGroupPanel.CreateAnotherBoxText" xml:space="preserve">
+    <value>Eine weitere erstellen</value>
+  </data>
+  <data name="EditSessionGroupPanel.CreateButtonText" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="EditSessionGroupPanel.CreateTitle" xml:space="preserve">
+    <value>Sitzungsgruppe erstellen</value>
+  </data>
+  <data name="EditSessionGroupPanel.Message" xml:space="preserve">
+    <value>
+Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf der Seite Verwaltung können Administratoren auch Sitzungsgruppen verwenden, um den Zugriff auf bestimmte Sitzungen und Funktionen zu beschränken</value>
+  </data>
+  <data name="EditSessionGroupPanel.SessionFilterLabel" xml:space="preserve">
+    <value>Sitzungsfilter:</value>
+  </data>
+  <data name="EditSessionGroupPanel.SessionFilterSyntaxItems" xml:space="preserve">
+    <value>CustomProperty1 LIKE 'ChangeMe' Der Wert von CustomProperty1 (das standardmäßige benutzerdefinierte Feld "Organisation") Sitzungsattribute
+ Name wie 'UntitledSession' Der Name der Sitzungsattribute der Sitzung
+ CustomPropertyN LIKE 'ChangeMe' Der Wert der benutzerdefinierten Eigenschaft N; N ist 1-8 Sitzungsattribute
+ Notes = 'ChangeMe' Eine durch Semikolon getrennte Liste aller Notizen, die den Sitzungsattributen der Sitzung hinzugefügt wurden
+ UnacknowledgedEventCount&gt; 0 Sitzungen mit einer nicht bestätigten Ereignisanzahl, wie eine ungelesene Chatnachricht Sitzungsattribute
+ IsPublic = 'true' Ein Flag, das angibt, ob es sich bei der Sitzung um öffentliche Sitzungsattribute handelt
+ Code = 'ChangeMe' Der Zugriffscode für die Sitzung, wenn Sitzungsattribute definiert sind
+ SessionID = '1123g123-12a3-123d-123b-12312cd31da2' Die eindeutige ID der Sitzung im GUID (Globally Unique Identifier) ​​-Format Sitzungsattribute
+ GuestConnectedCount&gt; 0 Die Anzahl der Gäste, die mit den Sitzungsteilnehmern verbunden sind
+ HostConnectedCount&gt; 0 Die Anzahl der Hosts, die mit den Sitzungsteilnehmern verbunden sind
+ Host = 'ChangeMe' Der Name des Hosts der Sitzungsteilnehmer
+ ConnectedParticipantNames WIE 'ChangeMe' Eine durch Kommas getrennte Liste aller benannten Teilnehmer, die mit den Sitzungsteilnehmern verbunden sind
+GuestMachineName = 'ChangeMe' Der Name der Gastmaschine Machine Info
+ GuestOperatingSystemName = 'Android' Der Name des Betriebssystems der Gastmaschine Machine Info
+ GuestClientVersion = '6.2.12876.6302' Die Version der Client-Software auf dem Gastcomputer, in der NN.N.Notation Machine Info
+ GuestMachineDomain = 'ChangeMe' Die Domäne oder Arbeitsgruppe des Gastsystems Machine Info
+ GuestNetworkAddress = '0.0.0.0' Die Netzwerkadresse der Gastmaschine, normalerweise in N.N.N.N IPv4-Notation Maschineninfo
+ GuestLoggedOnUserName = 'Administrator' Der Name des Benutzers, der am Gastcomputer Machine Info angemeldet ist
+ GuestOperatingSystemVersion = '10 .10 'Die Version des Gastbetriebssystems, in NN.N.Notation Machine Info
+ GuestLoggedOnUserDomain = 'ChangeMe' Die Domäne des Benutzers, der sich auf dem Maschinen-Info-Rechner des Gastes angemeldet hat
+ GuestSystemMemoryTotalMegabytes = 1023 Der gesamte Systemspeicher auf dem Gastcomputer in Megabytes Machine Info
+ GuestProcessorName = 'Intel (R) Xeon (R) CPU' Der Name des Prozessors auf dem Gastsystem Machine Info
+ GuestProcessorVirtualCount = 2 Die Anzahl der virtuellen Prozessoren auf der Maschine der Gastmaschine
+ GuestSystemMemoryAvailableMegabytes = 82 Der verfügbare Systemspeicher auf dem Gastcomputer in Megabytes Machine Info
+ GuestInfoUpdateTime&gt; '01 -01-2017 'Der Zeitpunkt der letzten Informationsaktualisierung für einen Remote-Computer. Datum und Uhrzeit
+ GuestLastActivityTime = '1/1/0001 12:00:00 AM' Die Uhrzeit der letzten Aktivität auf dem Gastsystem Datum und Uhrzeit
+ LastConnectedEventTime&gt; '1/1/0001 12:00:00 AM' Die Uhrzeit der letzten Verbindung für die Sitzung Datum und Uhrzeit
+ LastDisconnectedEventTime&gt; '1/1/0001 12:00:00 AM' Der Zeitpunkt der letzten Verbindungstrennung für die Sitzung Datum und Uhrzeit
+ LastEventTime&gt; '1/1/0001 12:00:00 AM' Die Uhrzeit des letzten Ereignisses, das dem Datum und der Uhrzeit der Sitzung hinzugefügt wurde</value>
+  </data>
+  <data name="EditSessionGroupPanel.SubgroupExpressionsSyntaxItems" xml:space="preserve">
+    <value>CustomPropertyN Der Wert der benutzerdefinierten Eigenschaft N; N ist 1-8 Sitzungsattribute
+ CustomProperty1 Der Wert von CustomProperty1 (das standardmäßige benutzerdefinierte Feld "Organisation") Sitzungsattribute
+ Name Der Name der Sitzungsattribute der Sitzung
+ Notizen Eine durch Semikolon getrennte Liste aller Notizen, die den Sitzungsattributen der Sitzung hinzugefügt wurden
+ Code Der Zugriffscode für die Sitzung, wenn Sitzungsattribute definiert sind
+ IsPublic Ein Flag, das angibt, ob es sich bei der Sitzung um öffentliche Sitzungsattribute handelt
+ SessionID Die eindeutige ID der Sitzung im GUID (Global Unique Identifier) ​​-Format Sitzungsattribute
+ UnacknowledgedEventCount Sitzungen mit einer nicht bestätigten Ereignisanzahl, wie eine ungelesene Chatnachricht Sitzungsattribute
+ GuestConnectedCount Die Anzahl der Gäste, die mit den Sitzungsteilnehmern verbunden sind
+ HostConnectedCount Die Anzahl der Hosts, die mit den Sitzungsteilnehmern verbunden sind
+ ConnectedParticipantNames Eine durch Kommas getrennte Liste aller benannten Teilnehmer, die mit den Sitzungsteilnehmern verbunden sind
+ Host Der Name des Hosts der Sitzungsteilnehmer
+ GuestOperatingSystemName Der Name des Betriebssystems des Gastsystems Machine Info
+ GuestLoggedOnUserName Der Name des Benutzers, der auf dem Gastsystem Machine Info angemeldet ist
+ GuestClientVersion Die Version der Client-Software auf dem Gastcomputer, in der N.N.N.Notation Machine Info
+ GuestNetworkAddress Die Netzwerkadresse der Gastmaschine, normalerweise in N.N.N.N IPv4-Notation Maschineninfo
+ GuestOperatingSystemVersion Die Version des Gastbetriebssystems, in der N.N.N.Notation Machine Info
+ GuestMachineDomain Die Domäne oder Arbeitsgruppe des Gastsystems Machine Info
+ GuestMachineName Der Name des Gastsystem Machine Info
+ GuestProcessorName Der Name des Prozessors auf dem Gastsystem Machine Info
+ GuestSystemMemoryTotalMegabytes Der gesamte Systemspeicher auf dem Gastcomputer in Megabytes Machine Info
+ GuestLoggedOnUserDomain Die Domäne des Benutzers, der auf der Maschinenmaschine des Gastcomputers angemeldet ist
+ GuestSystemMemoryAvailableMegabytes Der verfügbare Systemspeicher auf dem Gastcomputer in Megabytes Machine Info
+ GuestProcessorVirtualCount Die Anzahl der virtuellen Prozessoren auf der Maschine der Gastmaschine
+ GuestLastActivityTime Der Zeitpunkt der letzten Aktivität auf dem Gastsystem Datum und Uhrzeit
+ GuestInfoUpdateTime Der Zeitpunkt der letzten Informationsaktualisierung für einen Remote-Computer. Datum und Uhrzeit
+ LastConnectedEventTime Der Zeitpunkt der letzten Verbindung für das Datum und die Uhrzeit der Sitzung
+ LastDisconnectedEventTime Der Zeitpunkt der letzten Trennung für das Sitzungsdatum und die Uhrzeit
+ LastEventTime Die Zeit des letzten Ereignisses, das der Sitzung Datum und Zeit hinzugefügt wurde</value>
+  </data>
+  <data name="EditSessionGroupPanel.Title" xml:space="preserve">
+    <value>Sitzungsgruppen bearbeiten</value>
+  </data>
+  <data name="EditSessionGroupsPanel.SubgroupExpressionsLabel" xml:space="preserve">
+    <value>Untergruppenausdrücke</value>
+  </data>
+  <data name="EditSessionsPanel.ButtonText" xml:space="preserve">
+    <value>Sitzungen speichern</value>
+  </data>
+  <data name="EditSessionsPanel.Title" xml:space="preserve">
+    <value>Sitzungen bearbeiten</value>
+  </data>
+  <data name="EditUserPanel.ButtonText" xml:space="preserve">
+    <value>Benutzer speichern:</value>
+  </data>
+  <data name="EditUserPanel.CommentLabelText" xml:space="preserve">
+    <value>Kommentar:</value>
+  </data>
+  <data name="EditUserPanel.CreateTitle" xml:space="preserve">
+    <value>Benutzer erstellen</value>
+  </data>
+  <data name="EditUserPanel.DisplayNameLabelText" xml:space="preserve">
+    <value>Anzeigename:</value>
+  </data>
+  <data name="EditUserPanel.EditTitle" xml:space="preserve">
+    <value>Benutzer bearbeiten:</value>
+  </data>
+  <data name="EditUserPanel.ForcePasswordChangeLabelText" xml:space="preserve">
+    <value>Erzwinge die Passwortänderung bei der nächsten Anmeldung</value>
+  </data>
+  <data name="EditUserPanel.PasswordLabelText" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="EditUserPanel.RoleLabelText" xml:space="preserve">
+    <value>Rolle(n):</value>
+  </data>
+  <data name="EditUserPanel.UserNameLabelText" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="EditUserPanel.VerifyPasswordLabelText" xml:space="preserve">
+    <value>Passwort überprüfen:</value>
+  </data>
+  <data name="EditUserSourceConfigurationPanel.ButtonText" xml:space="preserve">
+    <value>Konfiguration speichern</value>
+  </data>
+  <data name="EditUserSourceConfigurationPanel.KeyHeader" xml:space="preserve">
+    <value>Schlüssel</value>
+  </data>
+  <data name="EditUserSourceConfigurationPanel.Title" xml:space="preserve">
+    <value>Konfiguration bearbeiten</value>
+  </data>
+  <data name="EditUserSourceConfigurationPanel.ValueHeader" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="EmailAuthenticationProviderSubjectFormat" xml:space="preserve">
+    <value>Ihr einmaliges Passwort lautet: {0}</value>
+  </data>
+  <data name="EnableUserSourcePanel.ButtonText" xml:space="preserve">
+    <value>Aktivieren Sie die Benutzerquelle</value>
+  </data>
+  <data name="EnableUserSourcePanel.Text" xml:space="preserve">
+    <value>Möchten Sie diese Benutzerquelle wirklich aktivieren</value>
+  </data>
+  <data name="EnableUserSourcePanel.Title" xml:space="preserve">
+    <value>Aktivieren Sie die Benutzerquelle</value>
+  </data>
+  <data name="EndUninstallSessionPanel.ButtonText" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="EndUninstallSessionPanel.Description" xml:space="preserve">
+    <value>Das Beenden und Deinstallieren ist etwas komplizierter als es zunächst scheinen mag:</value>
+  </data>
+  <data name="EndUninstallSessionPanel.EndDescription" xml:space="preserve">
+    <value>
+Entfernen Sie die Sitzung aus der Liste, löschen Sie den gesamten Sitzungsverlauf und trennen Sie einen Agenten dauerhaft von Ihrer Host-Seite.</value>
+  </data>
+  <data name="EndUninstallSessionPanel.EndTitle" xml:space="preserve">
+    <value>Nur beenden</value>
+  </data>
+  <data name="EndUninstallSessionPanel.Title" xml:space="preserve">
+    <value>Sitzung beenden oder deinstallieren</value>
+  </data>
+  <data name="EndUninstallSessionPanel.UninstallAndEndDescription" xml:space="preserve">
+    <value>Kombinieren Sie beide Optionen, indem Sie zuerst die Client-Software deinstallieren und dann die Sitzung aus der Liste entfernen.</value>
+  </data>
+  <data name="EndUninstallSessionPanel.UninstallAndEndTitle" xml:space="preserve">
+    <value>Deinstallieren und beenden</value>
+  </data>
+  <data name="EndUninstallSessionPanel.UninstallDescription" xml:space="preserve">
+    <value>Fordern Sie die Deinstallation des Agenten von einem Remote-Computer an. Die Anfrage wird verarbeitet, wenn die Maschine ohne einen Host verbunden ist.</value>
+  </data>
+  <data name="EndUninstallSessionPanel.UninstallTitle" xml:space="preserve">
+    <value>Nur deinstallieren</value>
+  </data>
+  <data name="ErrorPanel.Title" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="EvaluationPanel.PurchaseText" xml:space="preserve">
+    <value>Jetzt kaufen</value>
+  </data>
+  <data name="EvaluationPanel.RemainingDayMessage" xml:space="preserve">
+    <value>{0} Testtage übrig</value>
+  </data>
+  <data name="ExtensionsPanel.AuthorLabelFormat" xml:space="preserve">
+    <value>Autor: {0}</value>
+  </data>
+  <data name="ExtensionsPanel.EditSettings.ButtonText" xml:space="preserve">
+    <value>Einstellungen speichern</value>
+  </data>
+  <data name="ExtensionsPanel.EditSettings.DescriptionHeaderText" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="ExtensionsPanel.EditSettings.KeyHeaderText" xml:space="preserve">
+    <value>Schlüssel</value>
+  </data>
+  <data name="ExtensionsPanel.EditSettings.Message" xml:space="preserve">
+    <value>Die Erweiterung definiert die folgenden Einstellungen. Passen Sie diese Einstellungen an, um das Verhalten zu beeinflussen</value>
+  </data>
+  <data name="ExtensionsPanel.EditSettings.Title" xml:space="preserve">
+    <value>Bearbeite Erweiterungseinstellungen</value>
+  </data>
+  <data name="ExtensionsPanel.EditSettings.ValueHeaderText" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="ExtensionsPanel.EmptyMessage" xml:space="preserve">
+    <value>&lt;h2&gt; Keine Erweiterungen installiert&lt;/h2&gt;
+&lt;p&gt;Erweiterungen bieten alle Arten von Funktionalität
+    &lt;ul&gt;
+        &lt;li&gt;Zusätzliche Funktionen in der gesamten Anwendung&lt;/li&gt;
+        &lt;li&gt;Sprachübersetzungen für das Webinterface und die Clients&lt;/li&gt;
+        &lt;li&gt;Änderungen für Styling und Funktionalität&lt;/li&gt;
+        &lt;li&gt;Herunterladbare Dienstprogramme zur Verwendung mit dem System&lt;/li&gt;
+        &lt;li&gt;... oder erstellen Sie Ihre eigenen mit der Erweiterung Extension Developer!&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Wir empfehlen Ihnen, sie auszuprobieren.&lt;/p&gt;</value>
+  </data>
+  <data name="ExtensionsPanel.ExtensionBrowser.Title" xml:space="preserve">
+    <value>Erweiterungsmarkt</value>
+  </data>
+  <data name="ExtensionsPanel.InstalledExtensionsText" xml:space="preserve">
+    <value>Installierte Erweiterungen</value>
+  </data>
+  <data name="ExtensionsPanel.StatusActiveText" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="ExtensionsPanel.StatusDisabledText" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="ExtensionsPanel.StatusLoadErrorText" xml:space="preserve">
+    <value>Ladefehler</value>
+  </data>
+  <data name="GiveFeedbackPanel.BadRatingLabelText" xml:space="preserve">
+    <value>Schlecht</value>
+  </data>
+  <data name="GiveFeedbackPanel.CommentsLabelText" xml:space="preserve">
+    <value>Kommeentare:&lt;br /&gt;(optional)</value>
+  </data>
+  <data name="GiveFeedbackPanel.ExcellentRatingLabelText" xml:space="preserve">
+    <value>Ausgezeichnet</value>
+  </data>
+  <data name="GiveFeedbackPanel.GoodRatingLabelText" xml:space="preserve">
+    <value>Gut</value>
+  </data>
+  <data name="GiveFeedbackPanel.RatingLabelText" xml:space="preserve">
+    <value>Bewertung:</value>
+  </data>
+  <data name="GiveFeedbackPanel.SuccessHeading" xml:space="preserve">
+    <value>Feedback gesendet</value>
+  </data>
+  <data name="GiveFeedbackPanel.SuccessMessage" xml:space="preserve">
+    <value>Wir haben Ihr Feedback direkt an das ConnectWise Control-Team gesendet. Vielen Dank!</value>
+  </data>
+  <data name="GuestActionPanel.ButtonDescription" xml:space="preserve">
+    <value>Los</value>
+  </data>
+  <data name="GuestActionPanel.CodeSession.Heading" xml:space="preserve">
+    <value>mit einem Code &lt;em&gt;beitreten&lt;/em&gt; </value>
+  </data>
+  <data name="GuestActionPanel.InvitationSession.Heading" xml:space="preserve">
+    <value>Ihrer Sitzung &lt;br /&gt;&lt;em&gt;beitretetn&lt;/em&gt;</value>
+  </data>
+  <data name="GuestActionPanel.NoAvailableSessions.Heading" xml:space="preserve">
+    <value>Keine Sitzungen verfügbar</value>
+  </data>
+  <data name="GuestActionPanel.NoAvailableSessions.Message" xml:space="preserve">
+    <value>Momentan sind keine Sitzungen aufgelistet. Möglicherweise haben Sie jedoch eine Einladung per E-Mail erhalten, die Sie zum Verbinden nutzen können.</value>
+  </data>
+  <data name="GuestActionPanel.PublicSession.Heading" xml:space="preserve">
+    <value>Einer öffentlichen Sitzung &lt;em&gt;beitreten&lt;/em&gt;</value>
+  </data>
+  <data name="GuestJoinedPanel.AccessHeading" xml:space="preserve">
+    <value>Ihre Maschine hat sich verbunden</value>
+  </data>
+  <data name="GuestJoinedPanel.AccessText" xml:space="preserve">
+    <value>Ihr Gast hat sich verbunden. Treten Sie bei, indem Sie auf die Sitzung in der Liste doppelklicken.</value>
+  </data>
+  <data name="GuestJoinedPanel.MeetingHeading" xml:space="preserve">
+    <value>Gast/Gäste sind beigetreten.</value>
+  </data>
+  <data name="GuestJoinedPanel.MeetingText" xml:space="preserve">
+    <value>Ihr Gast ist beigetreten. Doppelklicke Sie die Sitzung in der Liste um beizutreten un damit Ihren Bildschirm zu präsentieren.</value>
+  </data>
+  <data name="GuestJoinedPanel.SupportHeading" xml:space="preserve">
+    <value>Ihr Gast ist beigetreten.</value>
+  </data>
+  <data name="GuestJoinedPanel.SupportText" xml:space="preserve">
+    <value>Ihr Gast hat sich verbunden. Treten Sie bei, indem Sie auf die Sitzung in der Liste doppelklicken.</value>
+  </data>
+  <data name="GuestWelcomePanel.Heading" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="GuestWelcomePanel.Message" xml:space="preserve">
+    <value>Willkommen bei unserem Fernwartungs- und Meetingportal. Die folgenden Optionen erlauben es Ihnen sich zu einer Sitzung zu verbinden.</value>
+  </data>
+  <data name="HelpPanel.Link2.Text" xml:space="preserve">
+    <value>Onlinehilfe</value>
+  </data>
+  <data name="HelpPanel.Link3.Text" xml:space="preserve">
+    <value>Benutzer Forum</value>
+  </data>
+  <data name="HostPanel.AccessButtonText" xml:space="preserve">
+    <value>Erstellen +</value>
+  </data>
+  <data name="HostPanel.AccessEmptyMessage" xml:space="preserve">
+    <value>Klicken Sie auf "Bauen +", um zu beginnen, oder wählen Sie eine andere Gruppe.</value>
+  </data>
+  <data name="HostPanel.AccessHeading" xml:space="preserve">
+    <value>Aufschalten</value>
+  </data>
+  <data name="HostPanel.AccessHelpText" xml:space="preserve">
+    <value>Verwenden Sie Zugriffssitzungen, um unbefugten Zugriff auf vertraute Computer zu ermöglichen.</value>
+  </data>
+  <data name="HostPanel.EmptyFilteredHeading" xml:space="preserve">
+    <value>Nichts in "{0}" für Ihren Filter "{1}"</value>
+  </data>
+  <data name="HostPanel.EmptyFilteredMessage" xml:space="preserve">
+    <value>Möglicherweise möchten Sie in einer anderen Gruppe suchen, um sicherzustellen, dass die Rechtschreibung korrekt ist, oder einen anderen Filter ausprobieren</value>
+  </data>
+  <data name="HostPanel.EmptyGroupText" xml:space="preserve">
+    <value>(leer)</value>
+  </data>
+  <data name="HostPanel.EmptyHeading" xml:space="preserve">
+    <value>"{0}" ist leer</value>
+  </data>
+  <data name="HostPanel.EmptyLinkFormat" xml:space="preserve">
+    <value>{0} in "{1}" gefunden ({2})</value>
+  </data>
+  <data name="HostPanel.GuestAnonymousName" xml:space="preserve">
+    <value>Gast</value>
+  </data>
+  <data name="HostPanel.MeetingButtonText" xml:space="preserve">
+    <value>Erstellen +</value>
+  </data>
+  <data name="HostPanel.MeetingEmptyMessage" xml:space="preserve">
+    <value>Klicken Sie auf die Schaltfläche "Erstellen +", um ein neue Einladungssitzung zu beginnen, oder wählen Sie eine andere Gruppe aus.</value>
+  </data>
+  <data name="HostPanel.MeetingHeading" xml:space="preserve">
+    <value>Einladen</value>
+  </data>
+  <data name="HostPanel.MeetingHelpText" xml:space="preserve">
+    <value>Verwenden Sie Einladungssitzungen für Präsentationen oder Zusammenkünfte.</value>
+  </data>
+  <data name="HostPanel.MultiSelectionHeading" xml:space="preserve">
+    <value>{0} Sitzungen ausgewählt</value>
+  </data>
+  <data name="HostPanel.SessionTruncatedMessageFormat" xml:space="preserve">
+    <value>Die Anzeige auf {0} von {1} Sitzungen beschränken, um die Leistung zu verbessern</value>
+  </data>
+  <data name="HostPanel.SupportButtonText" xml:space="preserve">
+    <value>Erstellen +</value>
+  </data>
+  <data name="HostPanel.SupportEmptyMessage" xml:space="preserve">
+    <value>Klicken Sie auf die Schaltfläche "Erstellen +", um eine neue Sitzung zu starten, oder wählen Sie eine andere Gruppe aus</value>
+  </data>
+  <data name="HostPanel.SupportHeading" xml:space="preserve">
+    <value>Aufschalten</value>
+  </data>
+  <data name="HostPanel.SupportHelpText" xml:space="preserve">
+    <value>Erstellen Sie Aufschalten-Sitzungen, um sofort jeden Computer im Internet zu unterstützen.</value>
+  </data>
+  <data name="HostPassPanel.DoneButtonText" xml:space="preserve">
+    <value>Erledigt</value>
+  </data>
+  <data name="HostPassPanel.EmailSubjectFormat" xml:space="preserve">
+    <value>{0} hat Sie eingeladen, Gastgeber einer Fernsteuerungssitzung zu sein</value>
+  </data>
+  <data name="HostPassPanel.LifetimeItems" xml:space="preserve">
+    <value>3600 1 Stunde  14400 4 Stunden  28800 8 Stunden  86400 24 Stunden  172800 48 Stunden  259200 72 Stunden  604800 1 Woche  1209600 2 Wochen  2592000 30 Tage</value>
+  </data>
+  <data name="HostPassPanel.LifetimeLabelText" xml:space="preserve">
+    <value>Lebenszeit:</value>
+  </data>
+  <data name="HostPassPanel.Message" xml:space="preserve">
+    <value>Geben Sie jemandem einen Pass, damit er eine Sitzung ohne Anmeldung auf diesem System abhalten kann. Pässe können nicht einzeln widerrufen werden. Verwenden Sie restriktive Optionen und verteilen Sie sie sorgfältig.</value>
+  </data>
+  <data name="HostPassPanel.PermissionsLabelText" xml:space="preserve">
+    <value>Berechtigungen:</value>
+  </data>
+  <data name="HostPassPanel.PermissionsMyPermissionsText" xml:space="preserve">
+    <value>Meine Berechtigungen:</value>
+  </data>
+  <data name="HostPassPanel.PermissionsViewOnlyText" xml:space="preserve">
+    <value>Nur ansehen</value>
+  </data>
+  <data name="HostPassPanel.ShareMessage" xml:space="preserve">
+    <value>Wählen Sie eine Option, um Ihren Host-Pass freizugeben:</value>
+  </data>
+  <data name="HostPassPanel.TextEmailBodyFormat" xml:space="preserve">
+    <value>Gehen Sie zur unten angegebenen Webadresse, um beizutreten: &lt;{1}&gt;</value>
+  </data>
+  <data name="HostPassPanel.Title" xml:space="preserve">
+    <value>Host-Pass erhalten</value>
+  </data>
+  <data name="ImageSelector.DropDestination.Message" xml:space="preserve">
+    <value>Bilddatei hier ablegen</value>
+  </data>
+  <data name="ImageSelector.JoinOr.Message" xml:space="preserve">
+    <value>- oder -</value>
+  </data>
+  <data name="ImageSelector.NoImage.Message" xml:space="preserve">
+    <value>Kein &lt;br/&gt; Bild</value>
+  </data>
+  <data name="InstallAccessPanel.ButtonText" xml:space="preserve">
+    <value>Aufschalten installieren</value>
+  </data>
+  <data name="InstallAccessPanel.Paragraph1Message" xml:space="preserve">
+    <value>Dadurch wird die Client-Software dauerhaft auf dem Remote-Computer installiert. Die Client-Software stellt eine Verbindung her und erscheint in Ihrer Liste der Aufschalten-Sitzungen.</value>
+  </data>
+  <data name="InstallAccessPanel.Paragraph2Message" xml:space="preserve">
+    <value>Geben Sie Werte an, um die Computer zu identifizieren, wenn sie zum ersten Mal in Ihrer Liste angezeigt werden:</value>
+  </data>
+  <data name="InstallAccessPanel.Paragraph3Message" xml:space="preserve">
+    <value>Diese Werte können später geändert werden, sobald sich die Sitzungen in Ihrer Liste befinden</value>
+  </data>
+  <data name="InstallAccessPanel.Title" xml:space="preserve">
+    <value>Aufschalten installieren</value>
+  </data>
+  <data name="InvitationPanel.CalendarTab.OpenButtonText" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="InvitationPanel.CodeTabText" xml:space="preserve">
+    <value>Leiten Sie den Gast zu:</value>
+  </data>
+  <data name="InvitationPanel.EmailTab.ComposeEmailButtonText" xml:space="preserve">
+    <value>Erstellen Sie selbst eine EMail</value>
+  </data>
+  <data name="InvitationPanel.EmailTab.SendButtonText" xml:space="preserve">
+    <value>Absenden</value>
+  </data>
+  <data name="InvitationPanel.EmailTabPlaceholder" xml:space="preserve">
+    <value>Tragen Sie hier die EMail des Gastes ein</value>
+  </data>
+  <data name="InvitationPanel.EmailTabText" xml:space="preserve">
+    <value>oder</value>
+  </data>
+  <data name="InvitationPanel.InvitationInstruction.IsNotPublicText" xml:space="preserve">
+    <value>Lassen Sie ihn den Code eingeben:</value>
+  </data>
+  <data name="InvitationPanel.InvitationInstruction.IsPublicText" xml:space="preserve">
+    <value>Lassen Sie ihn auf die Sitzung klicken mit dem Namen:</value>
+  </data>
+  <data name="InvitationPanel.InvitationTabListMessage" xml:space="preserve">
+    <value>Einladen via:</value>
+  </data>
+  <data name="InvitationPanel.LinkTab.CopyButtonText" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="InvitationPanel.LinkTabLabel" xml:space="preserve">
+    <value>Teilbarer Link:</value>
+  </data>
+  <data name="InvitationPanel.MeetingEmailSubjectFormat" xml:space="preserve">
+    <value>{0} hat Sie eingeladen einem Online Meeting beizutreten</value>
+  </data>
+  <data name="InvitationPanel.MeetingTextEmailBodyFormat" xml:space="preserve">
+    <value>Gehen Sie zu der untenstehenden Webadresse um dem Meeting beizutreten: &lt;{1}&gt;</value>
+  </data>
+  <data name="InvitationPanel.SendClientEventFileName" xml:space="preserve">
+    <value>Sitzung.ics</value>
+  </data>
+  <data name="InvitationPanel.SendClientEventLinkText" xml:space="preserve">
+    <value>Öffnen Sie den Kalendereintrag in Outlook, Notes oder einem anderen kalenderfähigen Programm</value>
+  </data>
+  <data name="InvitationPanel.SupportEmailSubjectFormat" xml:space="preserve">
+    <value>{0} hat Sie zu einer Ünterstützen-Sitzung eingeladen</value>
+  </data>
+  <data name="InvitationPanel.SupportTextEmailBodyFormat" xml:space="preserve">
+    <value>Gehen Sie zur folgenden Webadresse, um an Ihrer Fernwartngssitzung teilzunehmen:  &lt;{1}&gt;</value>
+  </data>
+  <data name="JoinPanel.Launcher.BackInstalledText" xml:space="preserve">
+    <value>Bereits mit installierter Anwendung zurückgekehrt?</value>
+  </data>
+  <data name="JoinPanel.Launcher.BackJoinText" xml:space="preserve">
+    <value>Ihrer Sitzung beitreten</value>
+  </data>
+  <data name="JoinPanel.Launcher.ButtonText" xml:space="preserve">
+    <value>Anwendung ausführen</value>
+  </data>
+  <data name="JoinPanel.Launcher.ConnectedText" xml:space="preserve">
+    <value>Sie haben sich erfolgreich zu Ihrer Sitzung verbunden.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpChromeDangerousFileConfirmationText" xml:space="preserve">
+    <value>Ihr Browser hat möglicherweise den Dateityp als gefährlich eingestuft. &lt;b&gt;Klicken Sie auf "Beibehalten"&lt;/b&gt; in der linken unteren Ecke Ihres Browsers um fortzufahren.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpChromeFileRunText" xml:space="preserve">
+    <value>Ihr Browser sollte nun die Anwendung herunterladen. &lt;b&gt;Klicken Sie auf Datei&lt;/b&gt; in der unteren linken Ecke Ihres Browsers um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacBundleExtractionText" xml:space="preserve">
+    <value>Ein Auswahlfenster sollte sich nun öffnen. &lt;b&gt;Doppelklicken Sie auf die Anwendung&lt;/b&gt; im Fenster um es zu auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacChromeUrlConfirmationText" xml:space="preserve">
+    <value>Sie könnten eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie "Anwendung ausführen"&lt;/b&gt; um die Anwendung auszuführen. Sie können die Auswahlbox markieren um die Auswahl abzuspeichern.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacFileConfirmationText" xml:space="preserve">
+    <value>Sie könnten eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie "Öffnen"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacFirefoxBundleConfirmationText" xml:space="preserve">
+    <value>Sie könnten eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie "Datei speichern"&lt;/b&gt; um die Anwendung herunterzuladen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacFirefoxBundleRunText" xml:space="preserve">
+    <value>Ihr Browser sollte nun die Anwendung herunterladen. &lt;b&gt;Klicken Sie auf den Download Pfeil&lt;/b&gt; in der oberen rechten Ecke des Ihres Browsers. Dann &lt;b&gt;klicken Sie auf die Anwendung&lt;/b&gt; um sie auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacFirefoxJnlpConfirmationText" xml:space="preserve">
+    <value>Sie könnten eine Aufforderung zur Ausführung erhalten. Sie sollten "Java(TM) Web Start Launcher" im "öffnen mit" Fenster vorausgewählt haben. &lt;b&gt; Klicken Sie "OK"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacFirefoxUrlConfirmationText" xml:space="preserve">
+    <value>Sie könnten eine Aufforderung zur Zustimmung erhalten. Die Anwendung sollte im Auswahlfenster hervorgehoben sein. &lt;b&gt;Klicken Sie "Öffnen"&lt;/b&gt; um die Anwendung auszuführen. Sie können die Auswahlbox markieren um die Auswahl abzuspeichern.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacGuestConnectedText" xml:space="preserve">
+    <value>Die Anwendung läuft nun. Sie sollten sie in Ihrer Benachrichtigungsleiste sehen. Mit einem Rechtsklick auf das Symbol können Sie Exit wählen und sie manuell beenden.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacSafariFileRunText" xml:space="preserve">
+    <value>Ihr Browser sollte nun die Anwendung herunterladen. &lt;b&gt;Klicken Sie auf den Download Pfeil&lt;/b&gt; in der oberen rechten Ecke des Ihres Browsers. Dann &lt;b&gt;klicken Sie auf die Anwendung&lt;/b&gt; um sie auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpMacWebStartConfirmationText" xml:space="preserve">
+    <value>Sie können eine weitere Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie auf "Ausführen"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsClickOnceConfirmationText" xml:space="preserve">
+    <value>Sie können eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie auf "Ausführen"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsExeConfirmationText" xml:space="preserve">
+    <value>Sie können eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie auf "Ausführen"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsFirefoxExeConfirmationText" xml:space="preserve">
+    <value>Sie können eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie auf "Speichern"&lt;/b&gt; um die Anwendung herunterzuladen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsFirefoxExeRunText" xml:space="preserve">
+    <value>Ihr Browser sollte nun die Anwendung herunterladen. &lt;b&gt;Klicken Sie auf den Download Pfeil&lt;/b&gt; in der oberen rechten Ecke des Ihres Browsers. Dann &lt;b&gt;klicken Sie auf die Anwendung&lt;/b&gt; um sie auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsFirefoxJnlpConfirmationText" xml:space="preserve">
+    <value>Sie könnten eine Aufforderung zur Ausführung erhalten. Sie sollten "Java(TM) Web Start Launcher" im "öffnen mit" Fenster vorausgewählt haben. &lt;b&gt; Klicken Sie "OK"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsGuestConnectedText" xml:space="preserve">
+    <value>Die Anwendung läuft nun. Sie sollten sie in Ihrer Benachrichtigungsleiste sehen. Mit einem Rechtsklick auf das Symbol können Sie Exit wählen und sie manuell beenden.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsInternetExplorerExeRunText" xml:space="preserve">
+    <value>Ihr Browser sollte nun die Anwendung herunterladen. &lt;b&gt;Klicken Sie auf den Download Pfeil&lt;/b&gt; unten im Browser. Dann &lt;b&gt;klicken Sie auf die Anwendung&lt;/b&gt; um sie auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.HelpWindowsWebStartConfirmationText" xml:space="preserve">
+    <value>Sie können eine Aufforderung zur Zustimmung erhalten. &lt;b&gt;Klicken Sie auf "Ausführen"&lt;/b&gt; um die Anwendung auszuführen.</value>
+  </data>
+  <data name="JoinPanel.Launcher.JoiningText" xml:space="preserve">
+    <value>Ihrer Sitzung beitreten</value>
+  </data>
+  <data name="JoinPanel.Launcher.LauncherMessage" xml:space="preserve">
+    <value>Die folgenden Methoden sind gelistet. Bitte wählen Sie eine um Ihrer Sitzung beizutreten:</value>
+  </data>
+  <data name="JoinPanel.Launcher.NextDetectedText" xml:space="preserve">
+    <value>Anwendungswechsel ermittelt.</value>
+  </data>
+  <data name="JoinPanel.Launcher.NextTroubleText" xml:space="preserve">
+    <value>Haben Sie Schwierigkeiten?</value>
+  </data>
+  <data name="JoinPanel.Launcher.NextTryingTextFormat" xml:space="preserve">
+    <value>Versuche die nächste Option in {0:n0} Sekunden...</value>
+  </data>
+  <data name="JoinPanel.Launcher.NextTryText" xml:space="preserve">
+    <value>Versuche die nächste Option</value>
+  </data>
+  <data name="JoinPanel.Launcher.SystemProfileMessage" xml:space="preserve">
+    <value>Die folgenden Systemprofile sind in passender Reihenfolge gelistet. Bitte wählen Sie diejenige, die Ihrer Konfiguration am ehesten entspricht.</value>
+  </data>
+  <data name="JoinPanel.LauncherAndroidIntent.ButtonText" xml:space="preserve">
+    <value>App ausführen oder installieren</value>
+  </data>
+  <data name="JoinPanel.LauncherAndroidIntent.Description" xml:space="preserve">
+    <value>Führen Sie unsere App aus wenn sie bereits auf Ihrem Gerät installiert ist. Wenn sie das nicht ist, dann werden Sie zum Play Store zur Installation geleitet.</value>
+  </data>
+  <data name="JoinPanel.LauncherAndroidSelector.Description" xml:space="preserve">
+    <value>Wählen Sie Installation der App wenn sie nicht bereits installiert ist, oder führen Sie die App aus wenn Sie sie bereits installiert haben.</value>
+  </data>
+  <data name="JoinPanel.LauncherAndroidSelectorInstall.Heading" xml:space="preserve">
+    <value>App installieren</value>
+  </data>
+  <data name="JoinPanel.LauncherAndroidSelectorLaunch.Heading" xml:space="preserve">
+    <value>Installierte App ausführen</value>
+  </data>
+  <data name="JoinPanel.LauncherAppStore.ButtonText" xml:space="preserve">
+    <value>App installieren</value>
+  </data>
+  <data name="JoinPanel.LauncherAppStore.Description" xml:space="preserve">
+    <value>Bekommen Sie unsere iOS App direkt aus dem Apple iOS Store.</value>
+  </data>
+  <data name="JoinPanel.LauncherAppStore.JoiningText" xml:space="preserve">
+    <value>Leite Sie zum App Store</value>
+  </data>
+  <data name="JoinPanel.LauncherClickOnceBootstrap.Description" xml:space="preserve">
+    <value>Eine ausführbare Datei erhalten die eine ClickOnce Runtime aufruft, die unsere online App ausführt. Wenn die ClickOnce Runtime nicht vorhanden ist, wird Microsoft .NET 2.0 mit ClickOnce installiert.</value>
+  </data>
+  <data name="JoinPanel.LauncherClickOnceDirect.Description" xml:space="preserve">
+    <value>Führen Sie unsere online App direkt mit ClickOnce aus.</value>
+  </data>
+  <data name="JoinPanel.LauncherClickOnceRun.Description" xml:space="preserve">
+    <value>Eine ausführbare Datei erhalten die eine ClickOnce Runtime aufruft, die unsere online App ausführt. Dies ist ideal für Browser die nicht in der Lage sind CLickOnce direkt auszuführen.</value>
+  </data>
+  <data name="JoinPanel.LauncherIosSelector.Description" xml:space="preserve">
+    <value>Wählen Sie, ob Sie die App herunterladen möchten, wenn Sie sie noch nicht haben, oder starten Sie die App, die Sie zuvor heruntergeladen haben.</value>
+  </data>
+  <data name="JoinPanel.LauncherIosSelectorInstall.Heading" xml:space="preserve">
+    <value>Laden Sie die App herunter</value>
+  </data>
+  <data name="JoinPanel.LauncherIosSelectorLaunch.Heading" xml:space="preserve">
+    <value>Starten Sie die heruntergeladene App</value>
+  </data>
+  <data name="JoinPanel.LauncherMacBundleDownload.ButtonText" xml:space="preserve">
+    <value>Anwendung herunterladen</value>
+  </data>
+  <data name="JoinPanel.LauncherMacBundleDownload.Description" xml:space="preserve">
+    <value>Erhalten Sie unser OS X App Bundle. Sie können es nach Ihrer Sitzung löschen oder für eine spätere Verwendung behalten.</value>
+  </data>
+  <data name="JoinPanel.LauncherMacBundleDownload.JoiningText" xml:space="preserve">
+    <value>Lade die Anwendung herunter</value>
+  </data>
+  <data name="JoinPanel.LauncherMacBundleSelector.Description" xml:space="preserve">
+    <value>Laden Sie die Anwendung herunter wenn Sie sie nicht bereits haben oder führen Sie die bereits heruntergeladene Anwendung aus.</value>
+  </data>
+  <data name="JoinPanel.LauncherMacBundleSelectorInstall.Heading" xml:space="preserve">
+    <value>Anwendung herunterladen</value>
+  </data>
+  <data name="JoinPanel.LauncherMacBundleSelectorLaunch.Heading" xml:space="preserve">
+    <value>heruntergeladene Anwendung ausführen</value>
+  </data>
+  <data name="JoinPanel.LauncherPlayStore.ButtonText" xml:space="preserve">
+    <value>Anwendung installieren</value>
+  </data>
+  <data name="JoinPanel.LauncherPlayStore.Description" xml:space="preserve">
+    <value>Unsere Android App direkt aus dem Google Play Store erhalten.</value>
+  </data>
+  <data name="JoinPanel.LauncherPlayStore.JoiningText" xml:space="preserve">
+    <value>Leite Sie zum Play Store</value>
+  </data>
+  <data name="JoinPanel.LauncherSelector.ButtonText" xml:space="preserve">
+    <value>Anwendung wählen</value>
+  </data>
+  <data name="JoinPanel.LauncherUrlLaunch.ButtonText" xml:space="preserve">
+    <value>Anwendung ausführen</value>
+  </data>
+  <data name="JoinPanel.LauncherUrlLaunch.Description" xml:space="preserve">
+    <value>Bereits heruntergeladene Anwendung ausführen. Wenn diese nicht installiert ist, wird versucht die nächste Option zu nutzen.</value>
+  </data>
+  <data name="JoinPanel.LauncherWebStartBootstrap.Description" xml:space="preserve">
+    <value>Web Start als Ladeprogramm für den bestmöglichen Client nutzen.</value>
+  </data>
+  <data name="JoinPanel.LauncherWebStartDirect.Description" xml:space="preserve">
+    <value>Unsere online App direkt mit Web Start ausführen.</value>
+  </data>
+  <data name="JoinPanel.LauncherWindowsInstallerDownload.ButtonText" xml:space="preserve">
+    <value>Anwendung herunterladen</value>
+  </data>
+  <data name="JoinPanel.LauncherWindowsInstallerDownload.Description" xml:space="preserve">
+    <value>Unser Windows Installationspaket um die Anwendung auf Ihrem System zu installieren herunterladen. Die Anwendung wird für zukünftige Sitzungen genutzt.</value>
+  </data>
+  <data name="JoinPanel.LauncherWindowsInstallerDownload.JoiningText" xml:space="preserve">
+    <value>Anwendung wird heruntergeladen</value>
+  </data>
+  <data name="JoinPanel.LauncherWindowsSelector.Description" xml:space="preserve">
+    <value>Laden Sie die Anwendung herunter wenn Sie sie nicht bereits haben oder starten Sie die bereits heruntergeladene Anwendung.</value>
+  </data>
+  <data name="JoinPanel.LauncherWindowsSelectorInstall.Heading" xml:space="preserve">
+    <value>Anwendung herunterladen</value>
+  </data>
+  <data name="JoinPanel.LauncherWindowsSelectorLaunch.Heading" xml:space="preserve">
+    <value>Heruntergeladene Anwendung ausführen</value>
+  </data>
+  <data name="JoinPanel.MeetingPromptButtonText" xml:space="preserve">
+    <value>Einer Einladung beitreten</value>
+  </data>
+  <data name="JoinPanel.MeetingPromptMessage" xml:space="preserve">
+    <value>Bitte identifizieren Sie sich gegenüber anderen Teilnehmern:</value>
+  </data>
+  <data name="JoinPanel.ParticipantNameLabelText" xml:space="preserve">
+    <value>Ihr Name:</value>
+  </data>
+  <data name="JoinPanel.SupportPromptButtonText" xml:space="preserve">
+    <value>Ich stimme zu, der Sitzung beeitreten</value>
+  </data>
+  <data name="JoinPanel.SupportPromptMessage" xml:space="preserve">
+    <value>Wenn Sie der Sitzung beitreten geben Sie dem Host vollständige Kontrolle über Ihren Computer. Wenn Sie unten bestätigen, stimmen Sie dieser Vorgehensweise zu.</value>
+  </data>
+  <data name="JoinPanel.Title" xml:space="preserve">
+    <value>Sitzung beitreten</value>
+  </data>
+  <data name="LicensePanel.CurrentLicenseText" xml:space="preserve">
+    <value>Momentane Lizenzen und Status:</value>
+  </data>
+  <data name="LicensePanel.EmptyText" xml:space="preserve">
+    <value>Sie haben keine Lizenzen. Bitte geben Sie eine ein.</value>
+  </data>
+  <data name="LicensePanel.LicenseHeaderText" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="LicensePanel.UsageReportHeaderText" xml:space="preserve">
+    <value>Nutzungsbericht</value>
+  </data>
+  <data name="LicensePanel.ValidationStatusHeaderText" xml:space="preserve">
+    <value>Gültigkeitsstatus</value>
+  </data>
+  <data name="LicensePanel.ValidationStatusNullDisplayText" xml:space="preserve">
+    <value>Erfolg</value>
+  </data>
+  <data name="LoginPanel.ButtonText" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="LoginPanel.ExternalLoginButtonTextFormat" xml:space="preserve">
+    <value>Verbindung mit {0} herstellen</value>
+  </data>
+  <data name="LoginPanel.ExternalLoginMessage" xml:space="preserve">
+    <value>Oder melden Sie sich bei einem externen Anbieter an:</value>
+  </data>
+  <data name="LoginPanel.Heading" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="LoginPanel.InvalidPasswordText" xml:space="preserve">
+    <value>Ungültiges Passwort. Bitte versuchen Sie es erneut.</value>
+  </data>
+  <data name="LoginPanel.InvalidUserNameText" xml:space="preserve">
+    <value>Ungültiges Passwort. Bitte versuchen Sie es erneut.</value>
+  </data>
+  <data name="LoginPanel.LockoutText" xml:space="preserve">
+    <value>Zu viele ungültige Passwortversuche: Sie sind gesperrt worden.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.AuthenticationFactorCountTooFew.Message" xml:space="preserve">
+    <value>Die angeforderte Ressource benötigt Authentifizierungsmethoden als Ihr aktuelle Authentifizierung bereitstellt. Bitte loggen Sie sich ein um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.Expired.Message" xml:space="preserve">
+    <value>Ihre aktuelle Authentifizierung ist abgelaufen. Bitte loggen Sie sich ein um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.IdleTooLong.Message" xml:space="preserve">
+    <value>Sie sind aufgrund der Überschreitung der Leerlaufzeit abgemeldet worden. Bitte melden Sie sich an, um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.Logout.Message" xml:space="preserve">
+    <value>Sie sind vom dem System abgmeldet worden. Bitte melden Sie sich an um weiterzuarbeiten.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.LongestIdleIntervalTooLong.Message" xml:space="preserve">
+    <value>Die angeforderte Ressource benötigt eine Reauthentifizierung aufgrund der Überschreitung der Leerlaufzeit. Bitte loggen Sie sich ein um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.None.Message" xml:space="preserve">
+    <value>Bitte loggen Sie sich ein um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.NotAuthenticated.Message" xml:space="preserve">
+    <value>Die angeforderte Ressource benötigt eine Authentifizierung. Bitte loggen Sie sich ein um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.LoginReason.PermissionsInsufficient.Message" xml:space="preserve">
+    <value>Die angeforderte Ressource benötigt mehr Rechte als Ihre aktuelle Authentifizierung bereitstellt. Bitte loggen Sie sich ein um fortzufahren.</value>
+  </data>
+  <data name="LoginPanel.OneTimePasswordMessage" xml:space="preserve">
+    <value>Ihr Benutzerkonto benötigt einen zusätzlichen Authentifizierungsschritt.</value>
+  </data>
+  <data name="LoginPanel.OneTimePasswordPlaceholderText" xml:space="preserve">
+    <value>Einmal-Passwort</value>
+  </data>
+  <data name="LoginPanel.OneTimePasswordShouldTrustCheckBoxText" xml:space="preserve">
+    <value>Diesen Gerät vertrauen</value>
+  </data>
+  <data name="LoginPanel.PasswordPlaceholderText" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="LoginPanel.UnchangeablePasswordExpiredText" xml:space="preserve">
+    <value>Das Passwort ist abgelaufen; kontaktieren Sie Ihren Systemadministrator um Ihr Passwort zu ändern und probieren Sie es nochmal.</value>
+  </data>
+  <data name="LoginPanel.UserNamePlaceholderText" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="LogoPanel.Heading" xml:space="preserve">
+    <value>ScreenConnect</value>
+  </data>
+  <data name="MailPanel.DefaultFromAddressLabelText" xml:space="preserve">
+    <value>Standard Absenderadresse</value>
+  </data>
+  <data name="MailPanel.DefaultToAddressLabelText" xml:space="preserve">
+    <value>Standard Empfängeradresse</value>
+  </data>
+  <data name="MailPanel.MailDeliveryText" xml:space="preserve">
+    <value>E-Mail Zustellung</value>
+  </data>
+  <data name="MailPanel.SendTestMailButtonText" xml:space="preserve">
+    <value>Test E-Mail senden:</value>
+  </data>
+  <data name="MailPanel.SmtpDirectRadioButtonText" xml:space="preserve">
+    <value>Vom Server direkt zum E-Mail Domain SMTP Server senden</value>
+  </data>
+  <data name="MailPanel.SmtpRelayRadioButtonText" xml:space="preserve">
+    <value>Vom Server über einen SMTP Relay Server senden:</value>
+  </data>
+  <data name="MailPanel.SuccessHeading" xml:space="preserve">
+    <value>Erfolg</value>
+  </data>
+  <data name="MailPanel.SuccessMessage" xml:space="preserve">
+    <value>E-Mail erfolgreich versandt</value>
+  </data>
+  <data name="MailPanel.TestBody" xml:space="preserve">
+    <value>Dies ist ein Test von Ihrer ScreenConnect Remote Support Software.</value>
+  </data>
+  <data name="MailPanel.TestSubject" xml:space="preserve">
+    <value>ScreenConnect E-Mail Einstellungstest</value>
+  </data>
+  <data name="MoveSessionGroupPanel.ButtonText" xml:space="preserve">
+    <value>Verschieben</value>
+  </data>
+  <data name="MoveSessionGroupPanel.MessageFormat" xml:space="preserve">
+    <value>Verschieben Sie "{0}" über die Gruppe:</value>
+  </data>
+  <data name="MoveSessionGroupPanel.Title" xml:space="preserve">
+    <value>Sitzungsgruppe verschieben</value>
+  </data>
+  <data name="NavigationPanel.AccessLinkText" xml:space="preserve">
+    <value>Aufschalten</value>
+  </data>
+  <data name="NavigationPanel.MeetingLinkText" xml:space="preserve">
+    <value>Einladen</value>
+  </data>
+  <data name="NavigationPanel.SupportLinkText" xml:space="preserve">
+    <value>Unterstützen</value>
+  </data>
+  <data name="NoGuestJoinedPanel.AccessHeading" xml:space="preserve">
+    <value>Es ist noch keine Maschine verbunden ...</value>
+  </data>
+  <data name="NoGuestJoinedPanel.AccessText" xml:space="preserve">
+    <value>Sobald Sie und Ihr Gast der Sitzung beitreten, können Sie ihren Bildschirm steuern. Doppelklicken Sie auf die Sitzung in der Liste, der Sie beitreten möchten.</value>
+  </data>
+  <data name="NoGuestJoinedPanel.MeetingHeading" xml:space="preserve">
+    <value>Es ist noch kein Gast beigetreten ...</value>
+  </data>
+  <data name="NoGuestJoinedPanel.MeetingText" xml:space="preserve">
+    <value>Sobald Sie und Ihr Gast der Sitzung beitreten, können Sie Ihren Bildschirm präsentieren. Doppelklicken Sie auf die Sitzung in der Liste, der Sie beitreten möchten.</value>
+  </data>
+  <data name="NoGuestJoinedPanel.SupportHeading" xml:space="preserve">
+    <value>Ihr Gast ist noch nicht beigetreten ...</value>
+  </data>
+  <data name="NoGuestJoinedPanel.SupportText" xml:space="preserve">
+    <value>Sobald Sie und Ihr Gast der Sitzung beitreten, können Sie ihren Bildschirm steuern. Doppelklicken Sie auf die Sitzung in der Liste, der Sie beitreten möchten.</value>
+  </data>
+  <data name="PhoneticAlphabet.0" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="PhoneticAlphabet.1" xml:space="preserve">
+    <value>Eins</value>
+  </data>
+  <data name="PhoneticAlphabet.2" xml:space="preserve">
+    <value>Zwei</value>
+  </data>
+  <data name="PhoneticAlphabet.3" xml:space="preserve">
+    <value>Drei</value>
+  </data>
+  <data name="PhoneticAlphabet.4" xml:space="preserve">
+    <value>Vier</value>
+  </data>
+  <data name="PhoneticAlphabet.5" xml:space="preserve">
+    <value>Fünf</value>
+  </data>
+  <data name="PhoneticAlphabet.6" xml:space="preserve">
+    <value>Sechs</value>
+  </data>
+  <data name="PhoneticAlphabet.7" xml:space="preserve">
+    <value>Sieben</value>
+  </data>
+  <data name="PhoneticAlphabet.8" xml:space="preserve">
+    <value>Acht</value>
+  </data>
+  <data name="PhoneticAlphabet.9" xml:space="preserve">
+    <value>Neun</value>
+  </data>
+  <data name="RemoveUserSourcePanel.ButtonText" xml:space="preserve">
+    <value>Benutzerquelle löschen</value>
+  </data>
+  <data name="RemoveUserSourcePanel.Text" xml:space="preserve">
+    <value>Möchten Sie diese Benutzerquelle wirklich löschen? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>
+  </data>
+  <data name="RemoveUserSourcePanel.Title" xml:space="preserve">
+    <value>Benutzerquelle löschen</value>
+  </data>
+  <data name="RevokeAccessPanel.AuthenticationSessionsText" xml:space="preserve">
+    <value>Wenn Sie Grund zu der Annahme haben, dass Benutzeranmeldeinformationen missbraucht werden, können alle derzeit angemeldeten Benutzer abgemeldet werden. &lt;br&gt; Sind Sie sicher, dass Sie alle Benutzer (einschließlich sich selbst) ausloggen möchten? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>
+  </data>
+  <data name="RevokeAccessPanel.ButtonText" xml:space="preserve">
+    <value>Alle widerrufen {0}</value>
+  </data>
+  <data name="RevokeAccessPanel.DelegatedAccessTokensText" xml:space="preserve">
+    <value>Host-Pässe verfallen von selbst. Wenn Sie jedoch Grund zu der Annahme haben, dass ein zuvor ausgestellter Host-Pass vor dem Ablauf missbraucht wird, können alle Host-Pässe gesperrt werden. Möchten Sie wirklich alle vorhandenen Host-Pässe widerrufen? ? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>
+  </data>
+  <data name="RevokeAccessPanel.Title" xml:space="preserve">
+    <value>Widerrufen {0}</value>
+  </data>
+  <data name="SecurityPanel.AuthenticationSessionsLabel" xml:space="preserve">
+    <value>Authentifizierungssitzungen</value>
+  </data>
+  <data name="SecurityPanel.CommentHeaderText" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="SecurityPanel.DelegatedAccessTokensLabel" xml:space="preserve">
+    <value>Host-Pässe</value>
+  </data>
+  <data name="SecurityPanel.DisplayNameHeaderText" xml:space="preserve">
+    <value>Anzeigename</value>
+  </data>
+  <data name="SecurityPanel.EarliestValidIssueTimeHeaderText" xml:space="preserve">
+    <value>Zuletzt widerrufen</value>
+  </data>
+  <data name="SecurityPanel.EarliestValidIssueTimeNeverRevokedText" xml:space="preserve">
+    <value>Nie zuvor widerrufen</value>
+  </data>
+  <data name="SecurityPanel.KeyHeaderText" xml:space="preserve">
+    <value>Schlüssel</value>
+  </data>
+  <data name="SecurityPanel.LdapMembershipProvider.Text" xml:space="preserve">
+    <value>Benutzer, die in Ihrem Verzeichnis und Attributzuordnungen gespeichert sind, definieren Rollen</value>
+  </data>
+  <data name="SecurityPanel.LookupFormCommentLabelText" xml:space="preserve">
+    <value>Kommentar:</value>
+  </data>
+  <data name="SecurityPanel.LookupFormDisplayNameLabelText" xml:space="preserve">
+    <value>Anzeigename:</value>
+  </data>
+  <data name="SecurityPanel.LookupFormPasswordQuestionLabelText" xml:space="preserve">
+    <value>Passwort Frage:</value>
+  </data>
+  <data name="SecurityPanel.LookupFormRolesLabelText" xml:space="preserve">
+    <value>Rollen:</value>
+  </data>
+  <data name="SecurityPanel.LookupFormUserNameLabelText" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="SecurityPanel.OAuth2MembershipProvider.Text" xml:space="preserve">
+    <value>Benutzer werden zum Anmelden an einen OAuth2-Autorisierungsserver gesendet</value>
+  </data>
+  <data name="SecurityPanel.RevokeAccessLabelText" xml:space="preserve">
+    <value>Zugriff aufheben</value>
+  </data>
+  <data name="SecurityPanel.RolesHeaderText" xml:space="preserve">
+    <value>Rolle(n)</value>
+  </data>
+  <data name="SecurityPanel.RolesLabelText" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="SecurityPanel.SamlMembershipProvider.Text" xml:space="preserve">
+    <value>Benutzer werden an einen SAML-Identitätsanbieter (Security Assertion Markup Language) zur Anmeldung gesendet</value>
+  </data>
+  <data name="SecurityPanel.SummaryFormat" xml:space="preserve">
+    <value>{0} Berechtigungseinträge</value>
+  </data>
+  <data name="SecurityPanel.SummaryHeaderText" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="SecurityPanel.TokenTypeHeaderText" xml:space="preserve">
+    <value>Tokentyp</value>
+  </data>
+  <data name="SecurityPanel.UserLookupLabelText" xml:space="preserve">
+    <value>Suchen Sie einen Benutzer anhand der obigen Werte, bevor Sie die Konfiguration speichern.</value>
+  </data>
+  <data name="SecurityPanel.UserLookupResult.RoleHasMatchesFormat" xml:space="preserve">
+    <value>{0} (entspricht der definierten Rolle)</value>
+  </data>
+  <data name="SecurityPanel.UserSourceDisabledHeadingFormat" xml:space="preserve">
+    <value>{0} (deaktiviert)</value>
+  </data>
+  <data name="SecurityPanel.UserSourcesLabelText" xml:space="preserve">
+    <value>Benutzerquellen</value>
+  </data>
+  <data name="SecurityPanel.UserTestPlaceHolderText" xml:space="preserve">
+    <value>Benutzername eingeben:</value>
+  </data>
+  <data name="SecurityPanel.ValueHeaderText" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="SecurityPanel.VerifyPasswordLabelText" xml:space="preserve">
+    <value>Überprüfen:</value>
+  </data>
+  <data name="SecurityPanel.WindowsMembershipProvider.Text" xml:space="preserve">
+    <value>Benutzer, die in Ihren Verzeichnis- und Gruppennamen gespeichert sind, stimmen mit Rollen überein</value>
+  </data>
+  <data name="SecurityPanel.XmlMembershipProvider.Heading" xml:space="preserve">
+    <value>Intern</value>
+  </data>
+  <data name="SecurityPanel.XmlMembershipProvider.Text" xml:space="preserve">
+    <value>Benutzer, Kennwörter und Rollen, die in dieser Anwendung gespeichert sind</value>
+  </data>
+  <data name="SelectThemePanel.ButtonText" xml:space="preserve">
+    <value>Thema anwenden</value>
+  </data>
+  <data name="SelectThemePanel.ThemeLabelText" xml:space="preserve">
+    <value>Thema:</value>
+  </data>
+  <data name="SelectThemePanel.Title" xml:space="preserve">
+    <value>Thema auswählen</value>
+  </data>
+  <data name="SessionGroupPopupMenu.HoverText" xml:space="preserve">
+    <value>Aktionen</value>
+  </data>
+  <data name="SessionHelpPanel.InstructionsGuestCodeFormat" xml:space="preserve">
+    <value>Weisen Sie Ihren Gast an nach "&lt;a href="{0}" target="_blank"&gt;{0}&lt;/a&gt;" zu navigieren und den Code "{2}", gesprochen "{3}" einzugeben.</value>
+  </data>
+  <data name="SessionHelpPanel.InstructionsGuestInvitationOnlyFormat" xml:space="preserve">
+    <value>Klicken Sie auf "Einladen" um eine Einladung an Ihre(n) Gast/Gäste zu senden.</value>
+  </data>
+  <data name="SessionHelpPanel.InstructionsGuestPublicFormat" xml:space="preserve">
+    <value>Weisen Sie Ihren Gast an nach "&lt;a href="{0}" target="_blank"&gt;{0}&lt;/a&gt;" und auf die Sizung mit dem Namen "{1}" zu klicken.</value>
+  </data>
+  <data name="SessionHelpPanel.InstructionsHeading" xml:space="preserve">
+    <value>Verbinden Sie sich mit Ihrem Gast</value>
+  </data>
+  <data name="SessionHelpPanel.InstructionsHostFormat" xml:space="preserve">
+    <value>Treten Sie selbst über "Join" oder durch Doppelklick auf die Sitzung in der oberen Tabelle der Sitzung bei.</value>
+  </data>
+  <data name="SessionInfoPanel.GuestJoinedMessage" xml:space="preserve">
+    <value>Gast klickte auf Beitreten</value>
+  </data>
+  <data name="SessionInfoPanel.GuestLoggedOnUserActiveLabelFormat" xml:space="preserve">
+    <value>Benutzer: {1} (Aktiv)</value>
+  </data>
+  <data name="SessionInfoPanel.GuestLoggedOnUserIdleLabelFormat" xml:space="preserve">
+    <value>Benutzer: {1} (untätig {2})</value>
+  </data>
+  <data name="SessionInfoPanel.GuestLoggedOnUserIdleUnknownLabelFormat" xml:space="preserve">
+    <value>Benutzer: {1}</value>
+  </data>
+  <data name="SessionInfoPanel.JoinModeLabelFormat" xml:space="preserve">
+    <value>Verbindungsmodus: {0}</value>
+  </data>
+  <data name="SessionInfoPanel.NotesLabelFormat" xml:space="preserve">
+    <value>Notizen: {0}</value>
+  </data>
+  <data name="SessionPanel.NewMeetingSessionName" xml:space="preserve">
+    <value>Unbenannte Einladung</value>
+  </data>
+  <data name="SessionPanel.NewSupportSessionName" xml:space="preserve">
+    <value>Unbenannte Unterstützung</value>
+  </data>
+  <data name="SessionPanel.PropertyKeepOption" xml:space="preserve">
+    <value>Nicht ändern</value>
+  </data>
+  <data name="SessionPanel.PropertyMachineNameOption" xml:space="preserve">
+    <value>Maschinennamen nutzen</value>
+  </data>
+  <data name="SessionPanel.PropertySpecifyOption" xml:space="preserve">
+    <value>Speziellen Wert nutzen</value>
+  </data>
+  <data name="SessionProperty.AccessGuestLastConnectedTime.LabelText" xml:space="preserve">
+    <value>Gast zuletzt verbunden:</value>
+  </data>
+  <data name="SessionProperty.Custom1.LabelText" xml:space="preserve">
+    <value>Organisation:</value>
+  </data>
+  <data name="SessionProperty.Custom2.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 2:</value>
+  </data>
+  <data name="SessionProperty.Custom3.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 3:</value>
+  </data>
+  <data name="SessionProperty.Custom4.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 4:</value>
+  </data>
+  <data name="SessionProperty.Custom5.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 5:</value>
+  </data>
+  <data name="SessionProperty.Custom6.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 6:</value>
+  </data>
+  <data name="SessionProperty.Custom7.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 7:</value>
+  </data>
+  <data name="SessionProperty.Custom8.LabelText" xml:space="preserve">
+    <value>Benutzerdefinierte Eigenschaft 8:</value>
+  </data>
+  <data name="SessionProperty.GuestInfoUpdateTime.ValueFormat" xml:space="preserve">
+    <value>Zuletzt aktualisiert vor {0}</value>
+  </data>
+  <data name="SessionProperty.GuestsConnected.LabelText" xml:space="preserve">
+    <value>Verbundene Gäste:</value>
+  </data>
+  <data name="SessionProperty.HostsConnected.LabelText" xml:space="preserve">
+    <value>Verbundene Hosts:</value>
+  </data>
+  <data name="SessionProperty.IdleTime.LabelText" xml:space="preserve">
+    <value>Leerlaufzeit:</value>
+  </data>
+  <data name="SessionProperty.JoinMode.InvitationOnlyFormat" xml:space="preserve">
+    <value>Nur Einladungen</value>
+  </data>
+  <data name="SessionProperty.JoinMode.LabelText" xml:space="preserve">
+    <value>Beitrittsmodus:</value>
+  </data>
+  <data name="SessionProperty.JoinMode.PublishedFormat" xml:space="preserve">
+    <value>Veröffentlicht</value>
+  </data>
+  <data name="SessionProperty.LoggedOnUser.LabelText" xml:space="preserve">
+    <value>Angemeldeter Benutzer:</value>
+  </data>
+  <data name="SessionProperty.Machine.LabelText" xml:space="preserve">
+    <value>Maschine:</value>
+  </data>
+  <data name="SessionProperty.NetworkAddress.LabelText" xml:space="preserve">
+    <value>Netzwerkadresse:</value>
+  </data>
+  <data name="SessionProperty.OperatingSystem.LabelText" xml:space="preserve">
+    <value>Betriebssystem:</value>
+  </data>
+  <data name="SessionProperty.Processor.LabelText" xml:space="preserve">
+    <value>Prozessor(en):</value>
+  </data>
+  <data name="SessionProperty.Processor.ValueFormat" xml:space="preserve">
+    <value>{0} ({1} virtuell)</value>
+  </data>
+  <data name="SessionProperty.SystemMemory.LabelText" xml:space="preserve">
+    <value>Verfügbarer Speicher:</value>
+  </data>
+  <data name="SetupWizard.FinishMessage1" xml:space="preserve">
+    <value>Sie haben die Grundeinstellung abgeschlossen! Sie können weitere Änderungen an diesen und anderen Einstellungen auf der Administrationsseite vornehmen.</value>
+  </data>
+  <data name="SetupWizard.FinishMessage2" xml:space="preserve">
+    <value>Wählen Sie BEENDEN, um die Änderungen zu übernehmen.</value>
+  </data>
+  <data name="SetupWizard.FinishTitle" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="SetupWizard.LicenseMessage" xml:space="preserve">
+    <value>Bitte geben Sie Ihre Testversion oder erworbene Lizenz ein. Brauchen Sie eine Lizenz? &lt;a target="_blank" href="https://www.connectwise.com/contact-us"&gt; Kontaktieren Sie uns &lt;/a&gt;, um Unterstützung zu erhalten.</value>
+  </data>
+  <data name="SetupWizard.LicenseTitle" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="SetupWizard.SecurityMessage" xml:space="preserve">
+    <value>Bitte geben Sie die Zugangsdaten für ein Administratorkonto ein.</value>
+  </data>
+  <data name="SetupWizard.SecurityPasswordMessage" xml:space="preserve">
+    <value>Das Passwort muss mindestens aus 6 Zeichen bestehen)</value>
+  </data>
+  <data name="SetupWizard.SecuritySubtitle" xml:space="preserve">
+    <value>für alle  wichtig</value>
+  </data>
+  <data name="SetupWizard.SecurityTitle" xml:space="preserve">
+    <value>Sicherheit</value>
+  </data>
+  <data name="SetupWizard.SecurityUserNameMessage" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="SetupWizard.SecurityVerifyPasswordMessage" xml:space="preserve">
+    <value>Passwort überprüfen:</value>
+  </data>
+  <data name="SetupWizard.WelcomeMessage" xml:space="preserve">
+    <value>Dieser Setup-Assistent konfiguriert grundlegende Einstellungen für ConnectWise Control.</value>
+  </data>
+  <data name="SetupWizard.WelcomeSubtitle" xml:space="preserve">
+    <value>Zu ConnectWise Control</value>
+  </data>
+  <data name="SetupWizard.WelcomeTitle" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="StatusPanel.BrowsableText" xml:space="preserve">
+    <value>Erreichbar</value>
+  </data>
+  <data name="StatusPanel.BrowserUrlCheckHeading" xml:space="preserve">
+    <value>Browser URL Prüfung</value>
+  </data>
+  <data name="StatusPanel.BrowserUrlCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat die URL, die Sie momentan in Ihrer Browseradressleiste nutzen geprüft. Diese URL sollte universell sein
+und für die selben Nutzer des Servers im lokalen Netz und aus dem Internet funktionieren.
+&lt;br /&gt;
+&lt;br /&gt; Die Nutzung einer universellen URL wird für den Versand einer E-Mail benötigt, andernfalls wird der Benutzer zu einer
+nicht existierenden Seite geleitet. Es ist auch eine gute Methode für den allgemeinen Gebrauch, wenn die Notwendigkeit besteht von einem externen Standort aus
+auf ConnectWise Control zuzugreifen.
+&lt;br
+/&gt;
+&lt;br /&gt; Mögliche URLs sind aufgelistet, die für Ihre Installation funktionieren können. Der Erfolg hängt von Ihrer Netzwerkkonfiguration
+ab und ob die Prüfung der externen Zugänglichkeit bestanden wurde.</value>
+  </data>
+  <data name="StatusPanel.DownloadLocationText" xml:space="preserve">
+    <value>Download:</value>
+  </data>
+  <data name="StatusPanel.ExternalAccessibilityCheckHeading" xml:space="preserve">
+    <value>Prüfung externe Erreichbarkeit</value>
+  </data>
+  <data name="StatusPanel.ExternalAccessibilityCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat die externe Erreichbarkeit Ihrer Installation geprüft. Damit Internetnutzer auf Ihre Installation Zugriff haben,
+müssen Netzwerk Gateways wie z.B. Router und Firewalls den entsprechenden Verkehr zu ConnectWise Control weiterleiten.
+&lt;br /&gt;
+&lt;br /&gt; ConnectWise Control versucht automatisch diese Gateways mit Universal Plug and Play (UPnP) und dem Internet Gateway Device (IGD) Protokollzu konfigurieren.
+Jedoch schlägt dies oft aus verschiedenen Gründen fehl, so dass Sie den Verkehr manuell weiterleiten müssen.</value>
+  </data>
+  <data name="StatusPanel.FirewallEnabledText" xml:space="preserve">
+    <value>Firewall eingeschaltet:</value>
+  </data>
+  <data name="StatusPanel.LatestEligibleVersionText" xml:space="preserve">
+    <value>Letzte berechtigte Version:</value>
+  </data>
+  <data name="StatusPanel.LatestVersionText" xml:space="preserve">
+    <value>Letzte Version:</value>
+  </data>
+  <data name="StatusPanel.PossibleUrlsText" xml:space="preserve">
+    <value>Mögliche URLs:</value>
+  </data>
+  <data name="StatusPanel.RelayAllowedText" xml:space="preserve">
+    <value>Relay Erlaubt:</value>
+  </data>
+  <data name="StatusPanel.RelayCheckHeading" xml:space="preserve">
+    <value>Relay Prüfung</value>
+  </data>
+  <data name="StatusPanel.RelayCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat Ihren Relay-Dienst überprüft, um sicherzustellen, dass er gestartet wurde und ordnungsgemäß funktioniert.
+Der Relay-Dienst stellt die Kommunikation für den Host und die Gast-Clients bereit.</value>
+  </data>
+  <data name="StatusPanel.RelayErrorText" xml:space="preserve">
+    <value>Relay Fehler:</value>
+  </data>
+  <data name="StatusPanel.RetestButtonText" xml:space="preserve">
+    <value>Hier klicken für erneuten Test</value>
+  </data>
+  <data name="StatusPanel.SessionManagerCheckHeading" xml:space="preserve">
+    <value>Session Manager Prüfung</value>
+  </data>
+  <data name="StatusPanel.SessionManagerCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat Ihren Session Manager-Dienst überprüft, um sicherzustellen, dass er gestartet wurde und ordnungsgemäß funktioniert. Der Sitzungs-Manager-Dienst muss ordnungsgemäß funktionieren, damit der Webserver und die Relay-Dienste Informationen zu aktiven Sitzungen abrufen können.</value>
+  </data>
+  <data name="StatusPanel.StatusErrorText" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="StatusPanel.StatusFailedText" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="StatusPanel.StatusIncompleteText" xml:space="preserve">
+    <value>In Arbeit</value>
+  </data>
+  <data name="StatusPanel.StatusPassedText" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="StatusPanel.StatusWarningText" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="StatusPanel.VersionCheckHeading" xml:space="preserve">
+    <value>Versionsprüfung</value>
+  </data>
+  <data name="StatusPanel.VersionCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat Ihre Version mit der letzten Version verglichen um zu sehen ob Sie die aktuellste Version haben. Wenn Sie nicht die aktuellste Version haben, hat ConnectWise Control überprüft ob Ihnen Ihre Lizenz erlaubt zu aktualisieren.</value>
+  </data>
+  <data name="StatusPanel.WebServerAllowedText" xml:space="preserve">
+    <value>Webserver erlaubt:</value>
+  </data>
+  <data name="StatusPanel.WebServerCheckHeading" xml:space="preserve">
+    <value>Webserver Prüfung</value>
+  </data>
+  <data name="StatusPanel.WebServerCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat Ihren Webserver überprüft, um sicherzustellen, dass er gestartet wurde und ordnungsgemäß funktioniert.  Der Webserver liefert die Webseite aus, die Sie gerade ansehen, und stellt Seiten für Ihre Hosts und Gäste bereit,
+die eine Verbindung herstellen.</value>
+  </data>
+  <data name="StatusPanel.WebServerErrorText" xml:space="preserve">
+    <value>Webserver Fehler:</value>
+  </data>
+  <data name="StatusPanel.WebServerTestUrlText" xml:space="preserve">
+    <value>Webserver Test URL:</value>
+  </data>
+  <data name="StatusPanel.WindowsFirewallCheckHeading" xml:space="preserve">
+    <value>Windows Firewall Prüfung</value>
+  </data>
+  <data name="StatusPanel.WindowsFirewallCheckMessage" xml:space="preserve">
+    <value>ConnectWise Control hat den Status der Windows Firewall auf dem Server überprüft. Für jeden, der auf Ihre Installation zugreifen möchte,
+muss die Windows Firewall deaktiviert oder eine Ausnahmeregel definiert sein für ConnectWise Control
+&lt;br /&gt;
+&lt;br /&gt; ConnectWise Control versucht automatisch eine Ausnahmeregel hinzuzufügen, aber verschieden Umstände können dies verhindern,
+ so dass es notwendig sein kann, eine Ausnahmeregel manuell hinzuzufügen.</value>
+  </data>
+  <data name="StatusPanel.YourVersionText" xml:space="preserve">
+    <value>Ihre Version:</value>
+  </data>
+  <data name="Timeline.ConnectionEventTitleFormat" xml:space="preserve">
+    <value>Ereignistyp: {0} Daten: {1}</value>
+  </data>
+  <data name="Timeline.ConnectionTitleFormat" xml:space="preserve">
+    <value>Prozess Typ: {0} Teilnehmerame: {1} Netzwerk Adresse: {2} Client Typ: {3} Client Version: {4} Dauer: {5}</value>
+  </data>
+  <data name="Timeline.EventTitleFormat" xml:space="preserve">
+    <value>Ereignistyp: {0} Host: {1} Daten: {2}</value>
+  </data>
+  <data name="Timeline.NowLabel" xml:space="preserve">
+    <value>Jetzt</value>
+  </data>
+  <data name="TriggersPanel.MailActionFromLabelText" xml:space="preserve">
+    <value>Von:</value>
+  </data>
+  <data name="TriggersPanel.MailActionFromPlaceHolder" xml:space="preserve">
+    <value>Leer lassen für Standardeinstellung</value>
+  </data>
+  <data name="TriggersPanel.MailActionSubjectLabelText" xml:space="preserve">
+    <value>Betreff:</value>
+  </data>
+  <data name="TriggersPanel.MailActionToLabelText" xml:space="preserve">
+    <value>An:</value>
+  </data>
+  <data name="TriggersPanel.MailActionToPlaceHolder" xml:space="preserve">
+    <value>Leer lassen für Standardeinstellung</value>
+  </data>
+  <data name="TriggersPanel.NewHttpActionButtonText" xml:space="preserve">
+    <value>Als HTTP (Web) hinzufügen</value>
+  </data>
+  <data name="TriggersPanel.NewSessionEventActionButtonText" xml:space="preserve">
+    <value>Als Sitzungsereignis hinzufügen</value>
+  </data>
+  <data name="TriggersPanel.NewSmtpActionButtonText" xml:space="preserve">
+    <value>Als SMTP (Mail) hinzufügen</value>
+  </data>
+  <data name="TriggersPanel.NewTriggerButtonText" xml:space="preserve">
+    <value>Auslöser erstellen</value>
+  </data>
+  <data name="TriggersPanel.RemoveActionButtonText" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="TriggersPanel.SessionEventActionDataLabelText" xml:space="preserve">
+    <value>Daten</value>
+  </data>
+  <data name="TriggersPanel.SessionEventActionDataPlaceholder" xml:space="preserve">
+    <value>z.B.: 'ipconfig'</value>
+  </data>
+  <data name="TriggersPanel.SessionEventActionEventAttributesLabelText" xml:space="preserve">
+    <value>Ereignisattribute</value>
+  </data>
+  <data name="TriggersPanel.SessionEventActionEventTypeLabelText" xml:space="preserve">
+    <value>Ereignistyp</value>
+  </data>
+  <data name="TriggersPanel.SessionEventActionHostNameLabelText" xml:space="preserve">
+    <value>Hostname</value>
+  </data>
+  <data name="TriggersPanel.SessionEventActionHostNamePlaceholder" xml:space="preserve">
+    <value>z.B. 'System Host'</value>
+  </data>
+  <data name="TriggersPanel.SessionEventTriggersText" xml:space="preserve">
+    <value>Sitzungsereignisauslöser</value>
+  </data>
+  <data name="TriggersPanel.TriggerActionLabelFormat" xml:space="preserve">
+    <value>Aktion #{0}:</value>
+  </data>
+  <data name="TriggersPanel.TriggerEventFilterLabelText" xml:space="preserve">
+    <value>Ereignisfilter:</value>
+  </data>
+  <data name="TriggersPanel.TriggerHeader" xml:space="preserve">
+    <value>Auslöser Definition</value>
+  </data>
+</root>
