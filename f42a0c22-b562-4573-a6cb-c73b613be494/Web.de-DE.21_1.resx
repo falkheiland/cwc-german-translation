@@ -175,7 +175,10 @@
     <value>Daten:</value>
   </data>
   <data name="AuditPanel.AuditEntryDownloadUrlLabelText" xml:space="preserve">
-    <value>Video herunterladen:</value>
+    <value>Aufnehmen:</value>
+  </data>
+  <data name="AuditPanel.AuditEntryDownloadUrlLinkText" xml:space="preserve">
+    <value>Video herunterladen</value>
   </data>
   <data name="AuditPanel.AuditEntryEventAttributesLabelText" xml:space="preserve">
     <value>Ereignisattribute:</value>
@@ -206,6 +209,9 @@
   </data>
   <data name="AuditPanel.ExtendedLevelTitle" xml:space="preserve">
     <value>Erweiterte Prüfung</value>
+  </data>
+  <data name="AuditPanel.IncludeSessionCapturesLabelText" xml:space="preserve">
+    <value>Sitzungsaufzeichnungen einschließen:</value>
   </data>
   <data name="AuditPanel.QueryAuditLogLabelText" xml:space="preserve">
     <value>Überwachungsprotokoll abfragen</value>
@@ -279,43 +285,34 @@
   <data name="ChangePasswordPanel.ChangePasswordHeading" xml:space="preserve">
     <value>Passwort ändern</value>
   </data>
-  <data name="ChangePasswordPanel.CurrentPasswordInvalidMessage" xml:space="preserve">
-    <value>Ungültiges aktuelles Passwort Bitte versuchen Sie es erneut.</value>
+  <data name="ChangePasswordPanel.CurrentPasswordInvalidErrorMessage" xml:space="preserve">
+    <value>Ungültiges aktuelles Passwort. Bitte versuchen Sie es erneut.</value>
   </data>
   <data name="ChangePasswordPanel.CurrentPasswordPlaceholderText" xml:space="preserve">
     <value>Aktuelles Passwort</value>
   </data>
-  <data name="ChangePasswordPanel.LockedOutMessage" xml:space="preserve">
+  <data name="ChangePasswordPanel.ErrorMessage" xml:space="preserve">
+    <value>Passwort konnte nicht geändert werden. Bitte wenden Sie sich an Ihren Administrator.</value>
+  </data>
+  <data name="ChangePasswordPanel.LockedOutErrorMessage" xml:space="preserve">
     <value>Zu viele falsche Passwortversuche; Sie wurden ausgesperrt.</value>
   </data>
-  <data name="ChangePasswordPanel.NewPasswordInvalidMessage" xml:space="preserve">
+  <data name="ChangePasswordPanel.NewPasswordInvalidErrorMessage" xml:space="preserve">
     <value>Ungültiges neues Passwort Bitte versuchen Sie es erneut.</value>
   </data>
-  <data name="ChangePasswordPanel.NewPasswordMatchInvalidMessage" xml:space="preserve">
+  <data name="ChangePasswordPanel.NewPasswordMatchInvalidErrorMessage" xml:space="preserve">
     <value>Neues Passwort und Bestätigung stimmen nicht überein. Bitte versuche es erneut.</value>
   </data>
   <data name="ChangePasswordPanel.NewPasswordPlaceholderText" xml:space="preserve">
     <value>Neues Passwort</value>
   </data>
-  <data name="ChangePasswordPanel.NotSupportedMessage" xml:space="preserve">
+  <data name="ChangePasswordPanel.NotSupportedErrorMessage" xml:space="preserve">
     <value>Das Ändern des Passworts wird in Ihrer aktuellen Konfiguration nicht unterstützt.</value>
-  </data>
-  <data name="ChangePasswordPanel.ResetPasswordButtonText" xml:space="preserve">
-    <value>Passwort zurücksetzen</value>
-  </data>
-  <data name="ChangePasswordPanel.ResetPasswordFailureMessage" xml:space="preserve">
-    <value>Passwort zurücksetzen fehlgeschlagen. Bitte kontaktieren Sie Ihren Administrator.</value>
-  </data>
-  <data name="ChangePasswordPanel.ResetPasswordHeading" xml:space="preserve">
-    <value>Passwort zurücksetzen</value>
-  </data>
-  <data name="ChangePasswordPanel.ResetTokenInvalidMessage" xml:space="preserve">
-    <value>Zurücksetzungslink ungültig. Bitte starten Sie die Anfrage neu.</value>
   </data>
   <data name="ChangePasswordPanel.SuccessText" xml:space="preserve">
     <value>Passwort erfolgreich geändert</value>
   </data>
-  <data name="ChangePasswordPanel.UserNameInvalidMessage" xml:space="preserve">
+  <data name="ChangePasswordPanel.UserNameInvalidErrorMessage" xml:space="preserve">
     <value>Ungültiger Benutzername. Bitte versuchen Sie es erneut.</value>
   </data>
   <data name="ChangePasswordPanel.UserNamePlaceholderText" xml:space="preserve">
@@ -1020,78 +1017,6 @@
   <data name="EditRolePanel.InheritedPermissionsLabelFormat" xml:space="preserve">
     <value>Geerbt von "{0}":</value>
   </data>
-  <data name="EditRolePanel.Instructions" xml:space="preserve">
-    <value>Es gibt mehrere Berechtigungstypen, die Administratoren beim Definieren ihrer Rollen auswählen können:
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;b&gt; Globale Berechtigungen: &lt;/ b&gt;
-&lt;br /&gt;
-&lt;br /&gt; -
-&lt;b&gt; Verwalten &lt;/ b&gt;: Bietet Zugriff auf die Verwaltungsseite der Software.
-&lt;br /&gt; -
-&lt;b&gt; ManageSessionGroups &lt;/ b&gt;: Bietet Zugriff auf den Link Sitzungsgruppen auf der Host-Seite.
-&lt;br /&gt; -
-&lt;b&gt; CreateSupportSession &lt;/ b&gt;: Erlaubt dem Host, eine Sitzung zu erstellen (Liste, Code oder E-Mail).
-&lt;br /&gt; -
-&lt;b&gt; CreateMeetingSession &lt;/ b&gt;: Gestattet dem Host, ein neues Meeting (Online-Präsentation) zu erstellen.
-&lt;br /&gt; -
-&lt;b&gt; BuildAccessInstaller &lt;/ b&gt;: Bietet Zugriff auf das Erstellen einer Schaltfläche für den Client für unbeaufsichtigten Zugriff auf der Hostseite.
-&lt;br /&gt; -
-&lt;b&gt; ManageSharedToolbox &lt;/ b&gt;: Legt fest, ob ein Benutzer auf Eigenschaften der freigegebenen Toolbox zugreifen kann, z. B. Hinzufügen, Löschen und
-Umbenennen von Dateien oder Ordnern.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;b&gt; Bereichsberechtigungen: &lt;/ b&gt;
-&lt;br /&gt;
-&lt;br /&gt; -
-&lt;b&gt; ViewSessionGroup &lt;/ b&gt;: Legt fest, ob ein Benutzer alle Sitzungsgruppen sehen, Sitzungsgruppen unterstützen, auf Sitzungsgruppen zugreifen,
-oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; ViewSessionGuestScreenshot &lt;/ b&gt;: Ermöglicht einem Host, Bildschirmvorschaubilder von Technikern anzuzeigen. Verfügbar in 6.1+.
-&lt;br /&gt; -
-&lt;b&gt; JoinSession &lt;/ b&gt;: Bietet die Berechtigung, bestimmten Sitzungen beizutreten, einschließlich: Alle Sitzungsgruppen, Support-Sitzungsgruppen, Zugriff
-Sitzungsgruppen oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; EndSession &lt;/ b&gt;: Ermöglicht einem Benutzer das Beenden von Sitzungen in: Alle Sitzungsgruppen, Supportsitzungsgruppen, Zugriffssitzungsgruppen oder spezifisch
-Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; TransferSession &lt;/ b&gt;: Bietet die Berechtigung zum Übertragen von Sitzungen von einem Benutzer an einen anderen unter: Alle Sitzungsgruppen, Support-Sitzung
-Gruppen, Zugriff auf Sitzungsgruppen oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; EditSession &lt;/ b&gt;: Der Host kann die vorhandenen Details einer Sitzung bearbeiten, z. B. Sitzungsname und Sitzungstyp. Diese Erlaubnis
-kann auf alle Sitzungsgruppen, Sitzungsgruppen, Sitzungsgruppen oder bestimmte Sitzungsgruppen angewendet werden.
-&lt;br /&gt; -
-&lt;b&gt; RunCommandOutsideSession &lt;/ b&gt;: Ermöglicht einem Host, die Registerkarte "Commands" auf der Host-Seite zu verwenden, um terminalähnliche Befehle auf a auszuführen
-entfernte Maschine. Diese Berechtigung kann für alle Sitzungsgruppen, Sitzungsgruppen, Zugriffssitzungsgruppen oder spezifisch gelten
-Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; AddNoteToSession &lt;/ b&gt;: Bietet die Berechtigung zum Hinzufügen von Notizen zu Sitzungen in: Alle Sitzungsgruppen, Support-Sitzungsgruppen, Zugriff
-Sitzungsgruppen oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; RemoveNoteFromSession &lt;/ b&gt;: Gibt an, ob Benutzer Notizen aus bestimmten Sitzungen entfernen können, einschließlich: Alle Sitzungsgruppen,
-Unterstützen Sie Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; RemoveCommandFromSession &lt;/ b&gt;: Ein Host mit dieser Berechtigung kann die Ausgabe im Abschnitt "Befehle" der Seite "Host" löschen. Dies
-Die Berechtigung kann für alle Sitzungsgruppen, Support-Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen gelten.
-&lt;br
-/&gt; -
-&lt;b&gt; NeuinstallSession &lt;/ b&gt;: Erlaubt dem Benutzer, eine nicht geplante Sitzung erneut zu installieren, wobei er entweder das Upgrade des Installers vornimmt
-oder Aktualisieren des Installationsprogramms und Umbenennen der unbeaufsichtigten Sitzung. Zu den Optionen für Gruppen gehören: Alle Sitzungsgruppen, Support
-Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; UninstallSession &lt;/ b&gt;: Legt fest, ob der Benutzer eine unbeaufsichtigte Sitzung aus bestimmten Gruppen einschließlich: Alle entfernen kann
-Sitzungsgruppen, Support-Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen.
-&lt;br /&gt; -
-&lt;b&gt; TransferFilesInSession &lt;/ b&gt;: Ein Host mit dieser Berechtigung kann Dateien zu und von einem entfernten Rechner übertragen.
-&lt;br /&gt; -
-&lt;b&gt; PrintInSession &lt;/ b&gt;: Ermöglicht einem Host, Remote-Drucken innerhalb einer Sitzung zu verwenden. Diese Berechtigung kann für alle Sitzungsgruppen gelten.
-Unterstützen Sie Sitzungsgruppen, Zugriffssitzungsgruppen oder bestimmte Sitzungsgruppen. Verfügbar in Version 5.6+.
-&lt;br /&gt; -
-&lt;b&gt; RunSharedToolInSession &lt;/ b&gt;: Ermöglicht einem Host, ein Tool aus der freigegebenen Toolbox auszuführen.
-&lt;br /&gt; -
-&lt;b&gt; HostSessionWithoutConsent &lt;/ b&gt;: Legt fest, ob das Dialogfeld "Click-to-Consent" auf der Seite des Gasts angezeigt wird.
-&lt;br /&gt;</value>
-  </data>
   <data name="EditRolePanel.PermissionsForMultiScopesLabelFormat" xml:space="preserve">
     <value>Berechtigungen für "{0}" ausgewählte Bereiche:</value>
   </data>
@@ -1220,7 +1145,10 @@ Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf 
     <value>Wert</value>
   </data>
   <data name="EmailAuthenticationProviderSubjectFormat" xml:space="preserve">
-    <value>Ihr einmaliges Passwort lautet: {0}</value>
+    <value>Ihr einmaliges Passwort: {0}</value>
+  </data>
+  <data name="EmailAuthenticationProviderTextBodyFormat" xml:space="preserve">
+    <value>Hallo, Hier ist das Einmalpasswort für die Anmeldung bei Ihrem Konto: {0} Dieser Code läuft nach {1} Minuten ab. Adresse des Anforderers: {2} Browser des Anforderers: {3}</value>
   </data>
   <data name="EnableUserSourcePanel.ButtonText" xml:space="preserve">
     <value>Aktivieren Sie die Benutzerquelle</value>
@@ -1491,6 +1419,9 @@ Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf 
   </data>
   <data name="HostPassPanel.PermissionsAllExceptPrintText" xml:space="preserve">
     <value>Meine Berechtigungen AUSSER Drucken</value>
+  </data>
+  <data name="HostPassPanel.PermissionsAllExceptSwitchLogonSessionText" xml:space="preserve">
+    <value>Meine Berechtigungen AUSSER Logon-Sitzungswechsel</value>
   </data>
   <data name="HostPassPanel.PermissionsAllExceptTransferFilesText" xml:space="preserve">
     <value>Meine Berechtigungen AUSSER Dateien übertragen</value>
@@ -1861,6 +1792,12 @@ Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf 
   <data name="LoginPanel.InvalidCredentialsText" xml:space="preserve">
     <value>Ungültige Anmeldeinformationen Bitte versuchen Sie es erneut.</value>
   </data>
+  <data name="LoginPanel.InvalidOneTimePasswordProviderText" xml:space="preserve">
+    <value>Ungültiger Einmalpasswortanbieter. Bitte wenden Sie sich an Ihren Steuerungsadministrator.</value>
+  </data>
+  <data name="LoginPanel.InvalidOneTimePasswordUserKeyText" xml:space="preserve">
+    <value>Ungültiger Einmalpasswortanbieter. Bitte wenden Sie sich an Ihren Steuerungsadministrator.</value>
+  </data>
   <data name="LoginPanel.InvalidUserNameText" xml:space="preserve">
     <value>Ungültiges Passwort. Bitte versuchen Sie es erneut.</value>
   </data>
@@ -1911,27 +1848,6 @@ Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf 
   </data>
   <data name="LoginPanel.PasswordPlaceholderText" xml:space="preserve">
     <value>Passwort</value>
-  </data>
-  <data name="LoginPanel.PasswordResetEmailSentHeading" xml:space="preserve">
-    <value>E-Mail gesendet</value>
-  </data>
-  <data name="LoginPanel.PasswordResetEmailSentMessage" xml:space="preserve">
-    <value>Wir haben Anweisungen zum Zurücksetzen Ihres Passworts gesendet. Wenn Sie es nicht innerhalb weniger Minuten in Ihrem Posteingang sehen, schauen Sie in Ihrem Spam-Ordner nach.</value>
-  </data>
-  <data name="LoginPanel.RequestPasswordResetButtonText" xml:space="preserve">
-    <value>Zurücksetzen Link bekommen</value>
-  </data>
-  <data name="LoginPanel.RequestPasswordResetHeading" xml:space="preserve">
-    <value>Passwort zurücksetzen</value>
-  </data>
-  <data name="LoginPanel.RequestPasswordResetMessage" xml:space="preserve">
-    <value>Geben Sie Ihren Benutzernamen ein. Wir senden Ihnen Anweisungen zum Zurücksetzen Ihres Passworts.</value>
-  </data>
-  <data name="LoginPanel.ResetPasswordEmailBodyFormat" xml:space="preserve">
-    <value>Hallo {0:htmlencode}, Jemand hat ein Zurücksetzen des Kennworts für Ihr ConnectWise Control-Benutzerkonto angefordert. Folgen Sie diesem Link, um Ihr Passwort zurückzusetzen: {1: url} Dieser Link läuft nach 20 Minuten ab. Anfordereradresse: {2:htmlencode} Anforderer-Browser: {3:htmlencode} Wenn Sie diese Änderung nicht angefordert haben, wenden Sie sich bitte an einen Administrator.</value>
-  </data>
-  <data name="LoginPanel.ResetPasswordEmailSubject" xml:space="preserve">
-    <value>ConnectWise Control-Kennwortrücksetzung angefordert</value>
   </data>
   <data name="LoginPanel.UnchangeablePasswordExpiredText" xml:space="preserve">
     <value>Das Passwort ist abgelaufen; kontaktieren Sie Ihren Systemadministrator um Ihr Passwort zu ändern und probieren Sie es nochmal.</value>
@@ -2058,6 +1974,66 @@ Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf 
   </data>
   <data name="RemoveUserSourcePanel.Title" xml:space="preserve">
     <value>Benutzerquelle löschen</value>
+  </data>
+  <data name="ResetPasswordPanel.EmailSubjectFormat" xml:space="preserve">
+    <value>{0} ist Ihr Passwort-Reset-Code für ConnectWise Control</value>
+  </data>
+  <data name="ResetPasswordPanel.ErrorMessage" xml:space="preserve">
+    <value>Passwort konnte nicht zurückgesetzt werden. Bitte wenden Sie sich an Ihren Administrator.</value>
+  </data>
+  <data name="ResetPasswordPanel.LockedOutErrorMessage" xml:space="preserve">
+    <value>Zu viele Fehlversuche; du wurdest ausgesperrt.</value>
+  </data>
+  <data name="ResetPasswordPanel.NewPasswordInvalidErrorMessage" xml:space="preserve">
+    <value>Ungültiges neues Passwort. Bitte versuche es erneut.</value>
+  </data>
+  <data name="ResetPasswordPanel.NewPasswordMatchInvalidErrorMessage" xml:space="preserve">
+    <value>Neues Passwort und Verifizierung stimmen nicht überein. Bitte versuche es erneut.</value>
+  </data>
+  <data name="ResetPasswordPanel.NewPasswordPlaceholderText" xml:space="preserve">
+    <value>Neues Passwort.</value>
+  </data>
+  <data name="ResetPasswordPanel.NotSupportedErrorMessage" xml:space="preserve">
+    <value>Das Zurücksetzen des Kennworts wird mit Ihrer aktuellen Konfiguration nicht unterstützt.</value>
+  </data>
+  <data name="ResetPasswordPanel.PasswordResetEmailSentHeading" xml:space="preserve">
+    <value>Email Sent</value>
+  </data>
+  <data name="ResetPasswordPanel.PasswordResetEmailSentMessage" xml:space="preserve">
+    <value>Wir haben Anweisungen zum Zurücksetzen Ihres Passworts gesendet. Wenn Sie es nicht innerhalb weniger Minuten in Ihrem Posteingang sehen, schauen Sie in Ihrem Spam-Ordner nach.</value>
+  </data>
+  <data name="ResetPasswordPanel.RequestPasswordResetButtonText" xml:space="preserve">
+    <value>Holen Sie sich den Reset-Code</value>
+  </data>
+  <data name="ResetPasswordPanel.RequestPasswordResetHeading" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="ResetPasswordPanel.RequestPasswordResetMessage" xml:space="preserve">
+    <value>Geben Sie Ihren Benutzernamen ein. Wir senden Ihnen Anweisungen zum Zurücksetzen Ihres Passworts.</value>
+  </data>
+  <data name="ResetPasswordPanel.ResetCodeInvalidErrorMessage" xml:space="preserve">
+    <value>Ungültiger Reset-Code. Bitte versuche es erneut.</value>
+  </data>
+  <data name="ResetPasswordPanel.ResetCodePlaceholderText" xml:space="preserve">
+    <value>Code zurücksetzen</value>
+  </data>
+  <data name="ResetPasswordPanel.ResetPasswordButtonText" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="ResetPasswordPanel.ResetPasswordHeading" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="ResetPasswordPanel.TextEmailBodyFormat" xml:space="preserve">
+    <value>Hallo, jemand hat eine Kennwortzurücksetzung für Ihr ConnectWise Control-Benutzerkonto angefordert. Verwenden Sie diesen Code, um Ihr Passwort zurückzusetzen: {0} Dieser Code läuft nach {1} Minuten ab. Adresse des Anforderers: {2} Browser des Anforderers: {3} Wenn Sie diese Änderung nicht angefordert haben, wenden Sie sich bitte an einen Administrator.</value>
+  </data>
+  <data name="ResetPasswordPanel.UserNameInvalidErrorMessage" xml:space="preserve">
+    <value>Ungültiger Benutzername. Bitte versuche es erneut.</value>
+  </data>
+  <data name="ResetPasswordPanel.UserNamePlaceholderText" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="ResetPasswordPanel.VerifyNewPasswordPlaceholderText" xml:space="preserve">
+    <value>neues Passwort bestätigen</value>
   </data>
   <data name="RevokeAccessPanel.AuthenticationSessionsText" xml:space="preserve">
     <value>Wenn Sie Grund zu der Annahme haben, dass Benutzeranmeldeinformationen missbraucht werden, können alle derzeit angemeldeten Benutzer abgemeldet werden. &lt;br&gt; Sind Sie sicher, dass Sie alle Benutzer (einschließlich sich selbst) ausloggen möchten? &lt;b&gt; Diese Aktion kann nicht rückgängig gemacht werden. &lt;/ b&gt;</value>

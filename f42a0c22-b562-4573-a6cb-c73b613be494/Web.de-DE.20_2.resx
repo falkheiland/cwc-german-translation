@@ -175,7 +175,7 @@
     <value>Daten:</value>
   </data>
   <data name="AuditPanel.AuditEntryDownloadUrlLabelText" xml:space="preserve">
-    <value>Video herunterladen:</value>
+    <value>Video aufzeichnen:</value>
   </data>
   <data name="AuditPanel.AuditEntryNetworkAddressLabelText" xml:space="preserve">
     <value>Adresse:</value>

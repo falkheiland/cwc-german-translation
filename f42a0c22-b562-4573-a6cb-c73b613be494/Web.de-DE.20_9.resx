@@ -175,7 +175,10 @@
     <value>Daten:</value>
   </data>
   <data name="AuditPanel.AuditEntryDownloadUrlLabelText" xml:space="preserve">
-    <value>Video herunterladen:</value>
+    <value>Aufnehmen:</value>
+  </data>
+  <data name="AuditPanel.AuditEntryDownloadUrlLinkText" xml:space="preserve">
+    <value>Video herunterladen</value>
   </data>
   <data name="AuditPanel.AuditEntryEventAttributesLabelText" xml:space="preserve">
     <value>Ereignisattribute:</value>

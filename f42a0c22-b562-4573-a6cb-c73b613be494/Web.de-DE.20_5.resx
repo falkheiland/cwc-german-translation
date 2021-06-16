@@ -175,7 +175,7 @@
     <value>Daten:</value>
   </data>
   <data name="AuditPanel.AuditEntryDownloadUrlLabelText" xml:space="preserve">
-    <value>Video herunterladen:</value>
+    <value>Video aufzeichnen:</value>
   </data>
   <data name="AuditPanel.AuditEntryEventAttributesLabelText" xml:space="preserve">
     <value>Ereignisattribute:</value>
@@ -758,6 +758,9 @@
   </data>
   <data name="Command.UpdateGuestInfo.Text" xml:space="preserve">
     <value>Gästeinfo aktualisieren</value>
+  </data>
+  <data name="Command.UpgradeLicense.Text" xml:space="preserve">
+    <value>Aktualisieren</value>
   </data>
   <data name="Command.UploadToolboxFile.Text" xml:space="preserve">
     <value>Datei hochladen</value>
@@ -1575,6 +1578,9 @@ Verwenden Sie Sitzungsgruppen, um Ihre Sitzungen dynamisch zu organisieren. Auf 
   </data>
   <data name="InvitationPanel.SupportEmailSubjectFormat" xml:space="preserve">
     <value>{0} hat Sie zu einer Ünterstützen-Sitzung eingeladen</value>
+  </data>
+  <data name="InvitationPanel.SupportTextEmailBodyFormat" xml:space="preserve">
+    <value>Gehen Sie zur folgenden Webadresse, um an Ihrer Fernwartngssitzung teilzunehmen:  &lt;{1:url}&gt;</value>
   </data>
   <data name="JoinPanel.Launcher.BackInstalledText" xml:space="preserve">
     <value>Bereits mit installierter Anwendung zurückgekehrt?</value>
